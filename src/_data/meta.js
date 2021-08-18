@@ -26,7 +26,7 @@ module.exports = {
     // page language
     language: 'sv',
    // Sidans namn, måste överrensstämma med src/index.md title front matter
-    siteName: 'Programmering',
+    siteName: 'Programmering 1',
     themeColor: getColorPick(), // pick or color string '#ff4e50'
     siteDescription:
         'Kurssida för gymnasiekursen Programmering 1 med Python.',
