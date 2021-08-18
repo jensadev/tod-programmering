@@ -1,23 +1,28 @@
 ---
-title: Skapa ett tema
+title: GitHub
 eleventyNavigation:
-    key: skapa ett tema
-    parent: min kurs
+    key: github
+    parent: installation
     order: 3
-    excerpt: Teman skapas i systemets src mapp och samlar ett eller flera områden
+    excerpt: Viktigt
 ---
 {% intro %}
 
 ## Introduktion
-I detta repo kan du skapa ditt första tema. 
 
-### Sidan använder
+https://github.com/
+
+### Tänk på
+
+- Stuff
 
 {% endintro %}
 
 {% instruktioner %}
 
 ## Instruktioner
+
+Plenty
 
 {% endinstruktioner %}
 
@@ -27,6 +32,6 @@ I detta repo kan du skapa ditt första tema.
 ### ⭐
 #### Uppgift 1
 
-
+Installera och testa Python
 
 {% enduppgifter %}

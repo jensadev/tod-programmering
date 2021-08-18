@@ -5,8 +5,8 @@ category: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 eleventyNavigation:
     key: kom igång
-    parent: ämnestitel
+    parent: programmering
     order: 0
-    excerpt: Pedagogisk tanke, installation och vad du behöver veta för att skapa din egen kurs
+    excerpt: Vad du behöver veta för att komma igång med kursen
 ---
 ## Temat {{ title }} innehåller följande områden

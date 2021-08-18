@@ -26,13 +26,13 @@ module.exports = {
     // page language
     language: 'sv',
    // Sidans namn, måste överrensstämma med src/index.md title front matter
-    siteName: 'Ämnestitel',
+    siteName: 'Programmering',
     themeColor: getColorPick(), // pick or color string '#ff4e50'
     siteDescription:
-        'Instruktionssida för siteskaparen för Tema Område Del, TOD.',
+        'Kurssida för gymnasiekursen Programmering 1 med Python.',
     author: {
         name: 'Jens Andreasson',
-        email: 'jensandreasson77@gmail.com',
+        email: 'jens.andreasson@ntig.se',
         url: 'https://jensa.xyz'
     }
 };
