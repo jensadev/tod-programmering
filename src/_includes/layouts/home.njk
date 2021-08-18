@@ -1,0 +1,57 @@
+---
+layout: layouts/base.njk
+---
+
+{{ content | safe }}
+
+<div class="accordion flow" id="accordion">
+    {% set navPages = collections.all | eleventyNavigation(title.toLowerCase()) %}
+    {% for entry in navPages %}
+        <div class="accordion__item">
+            <h2 class="accordion__item-header">
+                <span
+                    title="Tema: {{ entry.excerpt }}">
+                    {{ entry.title | capitalize }}
+                </span>
+            </h2>
+        </div>
+        {% if entry.children.length %}
+            {% for child in entry.children %}
+                <div class="accordion__item">
+                    <h3 
+                        class="accordion__item-header"
+                        id="heading-{{ child.title | slug }}">
+                        <button
+                            class="accordion__item-button"
+                            type="button"
+                            title="Område: {{ child.excerpt }}"
+                            aria-controls="{{ child.title | slug }}">
+                            {{ child.title | capitalize }}
+                        </button>
+                    </h3>
+                    <div 
+                        id="{{ child.title | slug }}"
+                        class="accordion__item-collapse"
+                        aria-labelledby="heading-{{ child.title | slug }}">
+                        <div class="accordion__item-body">
+                            {% if child.children.length %}
+                                <ul class="accordion__item-list">
+                                {% for child in child.children %}
+                                    <li>
+                                        <a 
+                                            title="Del: {{ child.excerpt }}"
+                                            class="accordion__item-link"
+                                            href="{{ child.url | url }}">
+                                            {{ child.title | capitalize }}
+                                        </a>
+                                    </li>
+                                {% endfor %}
+                                </ul>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    {% endfor %}
+</div>
