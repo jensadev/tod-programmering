@@ -1,20 +1,20 @@
 ---
-title: Random
+title: Datatyper
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: datatyper
+    parent: introduktion
+    order: 2
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion
 
+asf
 
 ### Tänk på
 
-
+- asdf
 
 {% endintro %}
 
@@ -22,6 +22,7 @@ eleventyNavigation:
 
 ## Instruktioner
 
+asdf
 
 {% endinstruktioner %}
 
@@ -31,15 +32,5 @@ eleventyNavigation:
 ### ⭐
 #### Uppgift 1
 
-
-
-### ⭐⭐
-
-{% extra %}
-
-
-
-
-{% endextra %}
 
 {% enduppgifter %}

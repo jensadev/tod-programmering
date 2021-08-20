@@ -1,12 +1,11 @@
 ---
-title: Random
+title: Indexering
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: indexering
+    parent: text
+    order: 2
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion

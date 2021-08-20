@@ -1,12 +1,11 @@
 ---
-title: Random
+title: In operatorn
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: in operatorn
+    parent: text
+    order: 4
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion

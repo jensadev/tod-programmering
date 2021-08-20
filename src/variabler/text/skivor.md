@@ -1,12 +1,11 @@
 ---
-title: Random
+title: Skivor
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: skivor
+    parent: text
+    order: 3
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion

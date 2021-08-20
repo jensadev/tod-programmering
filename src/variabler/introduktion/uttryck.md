@@ -1,8 +1,8 @@
 ---
-title: Funktion
+title: Uttryck
 eleventyNavigation:
-    key: funktion
-    parent: vad är en
+    key: uttryck
+    parent: introduktion
     order: 4
     excerpt: 
 ---

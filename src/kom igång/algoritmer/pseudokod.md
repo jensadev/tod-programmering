@@ -1,9 +1,9 @@
 ---
-title: Random
+title: Pseudokod
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: pseudokod
+    parent: algoritmer
+    order: 2
     excerpt: 
 ---
 

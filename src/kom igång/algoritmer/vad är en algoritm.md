@@ -1,9 +1,9 @@
 ---
-title: Random
+title: Vad är en algoritm
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: vad är en algoritm
+    parent: algoritmer
+    order: 1
     excerpt: 
 ---
 

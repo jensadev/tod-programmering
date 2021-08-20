@@ -1,12 +1,11 @@
 ---
-title: Random
+title: Funktioner
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: funktioner
+    parent: introduktion
+    order: 5
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion
