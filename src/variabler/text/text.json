@@ -1,0 +1,6 @@
+{
+    "tags": "text",
+    "category": "del",
+    "layout": "layouts/part.njk",
+    "permalink": "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
+}

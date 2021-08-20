@@ -42,7 +42,7 @@ Du kan nu testa att skriva kod i terminalfönstret som kommer att tolkas av Pyth
 För att testa om du installerat Python i din path, starta först Powershell eller CMD.
 Skriv sedan ```python``` i terminalen för att starta Python. Om programmet finns i systemets path så kommer det att startas.
 
-Om Python saknas i systemets path, så kan du lägga till det manuellt, eller installera om Python.
+Om Python saknas i systemets path, så kan du lägga till det manuellt, eller installera om Python (kom ihåg checkboxen).
 
 Du kan sedan avsluta Python genom att skriva ```exit()```
 

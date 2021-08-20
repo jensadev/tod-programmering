@@ -6,5 +6,7 @@ eleventyNavigation:
     key: programmering 1
 ---
 {% lead %}
-Programmering 1
+Den här webbplatsen är ett komplement till kursboken.
 {% endlead %}
+
+I programmering är det viktigt att skriva kod, gör uppgifterna. 

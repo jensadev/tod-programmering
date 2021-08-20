@@ -1,10 +1,10 @@
 ---
-title: Kom igång
+title: Variabler
 layout: "layouts/theme.njk"
 category: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
 eleventyNavigation:
-    key: kom igång
+    key: variabler
     parent: programmering 1
     order: 0
     excerpt: Vad du behöver veta för att komma igång med kursen

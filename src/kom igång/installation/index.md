@@ -8,4 +8,4 @@ eleventyNavigation:
     order: 1
     excerpt: För att kunna programmera behöver vi kunna använda oss av ett antal olika verktyg
 ---
-## Området {{ title }} innehåller följande delar
+## Delar i området {{ title }}
