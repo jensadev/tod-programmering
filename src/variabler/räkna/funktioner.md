@@ -1,9 +1,9 @@
 ---
-title: Random
+title: Funktioner
 eleventyNavigation:
-    key: random
+    key: funktioner
     parent: räkna
-    order: 6
+    order: 5
     excerpt: 
 ---
 

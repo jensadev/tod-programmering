@@ -1,20 +1,20 @@
 ---
-title: Datatyp
+title: Flödesschema
 eleventyNavigation:
-    key: datatyp
-    parent: vad är en
-    order: 2
+    key: flödesschema
+    parent: algoritmer
+    order: 3
     excerpt: 
 ---
+
 {% intro %}
 
 ## Introduktion
 
-asf
 
 ### Tänk på
 
-- asdf
+
 
 {% endintro %}
 
@@ -22,7 +22,6 @@ asf
 
 ## Instruktioner
 
-asdf
 
 {% endinstruktioner %}
 
@@ -32,5 +31,15 @@ asdf
 ### ⭐
 #### Uppgift 1
 
+
+
+### ⭐⭐
+
+{% extra %}
+
+
+
+
+{% endextra %}
 
 {% enduppgifter %}

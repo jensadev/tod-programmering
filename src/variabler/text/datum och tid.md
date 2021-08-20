@@ -1,9 +1,9 @@
 ---
-title: Operator
+title: Datum och tid
 eleventyNavigation:
-    key: operator
-    parent: vad är en
-    order: 3
+    key: datum och tid
+    parent: text
+    order: 6
     excerpt: 
 ---
 {% intro %}

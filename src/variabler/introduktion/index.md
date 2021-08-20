@@ -1,9 +1,9 @@
 ---
-title: Vad är en
+title: Introduktion
 layout: "layouts/area.njk"
 category: område
 eleventyNavigation:
-    key: vad är en
+    key: introduktion
     parent: variabler
     order: 1
     excerpt: 

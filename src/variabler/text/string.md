@@ -1,12 +1,11 @@
 ---
-title: Random
+title: String
 eleventyNavigation:
-    key: random
-    parent: räkna
-    order: 6
+    key: string
+    parent: text
+    order: 1
     excerpt: 
 ---
-
 {% intro %}
 
 ## Introduktion
@@ -22,6 +21,11 @@ eleventyNavigation:
 
 ## Instruktioner
 
+
+|Escape-sekvens|Förklaring|
+|---|---|
+|`\n`|Ny rad (newline)|
+|`\t`|Tab (horisontal tab)|
 
 {% endinstruktioner %}
 

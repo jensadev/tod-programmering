@@ -1,8 +1,8 @@
 ---
-title: Variabel
+title: Variabler och värden
 eleventyNavigation:
-    key: variabel
-    parent: vad är en
+    key: variabler och värden
+    parent: introduktion
     order: 1
     excerpt: 
 ---
