@@ -4,6 +4,7 @@ layout: "layouts/home.njk"
 category: ämne
 eleventyNavigation:
     key: programmering 1
+    excerpt: Kursens startsida
 ---
 {% lead %}
 Den här webbplatsen är ett komplement till kursboken.
