@@ -49,6 +49,9 @@ tal1 == 24
 |`-`|Subtraktion|
 |`*`|Multiplikation|
 |`/`|Division|
+|`//`|Division kapat till heltal|
+|`%`|Rest vid division|
+|`**`|Upphöjt till andra operatorn|
 
 ### Jämförande
 |Operator|Förklaring|
@@ -74,8 +77,10 @@ tal1 == 24
 
 Koda och testa aritmetiska operatorer genom att skriva aritmetiska uttryck.
 
+
 #### Uppgift 2
 
 Koda och testa jämförande operatorer.
+Använd variabler av typen ```string``` för det.
 
 {% enduppgifter %}

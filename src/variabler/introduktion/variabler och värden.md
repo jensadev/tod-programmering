@@ -10,17 +10,18 @@ eleventyNavigation:
 
 ## Introduktion
 
-En variabel är en kontainer för ett värde. Värdet kan ändras och kontainern kan återanvändas.
+En variabel är en container för ett värde. Värdet kan ändras och containern kan återanvändas.
 En vanlig liknelse för en variabel är en låda. I lådan kan något sparas, värdet. Lådan kan tömmas och fyllas. Lådan har ett namn vilket gör att den går att identifiera.
 
+En variabel är programmets sätt att spara något.
+
 Under detta så är lådan en minnesplats på datorn som programspråket används. Namnet på variabeln är ett alias för att göra det enklare för en människa att förstå.
-
-
 
 ### Tänk på
 
 - Att namnet på en variabel ska vara begripligt och tydligt
 - Variabler skapas genom att tilldela ett namn ett värde
+- Vid tilldelningen av ett värde bestäms variabelns datortyp
 - Använd ett system för namnen på variabler
     - camelCase
     - snake_case
