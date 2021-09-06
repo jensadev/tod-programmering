@@ -34,6 +34,11 @@ För att sedan komma igång och koda.
 3. Klicka "Create repl"
 4. Koda
 
+```python
+namn = "Mitt namn"
+print(f"Den här koden körs på replit. Min namn är {namn}!")
+```
+
 {% endinstruktioner %}
 
 {% uppgifter %}
@@ -51,6 +56,9 @@ Testa att köra Python på replit.
 #### Uppgift 2
 
 Testa att importera kod från GitHub till replit.
+Du kan använda detta [repository](https://github.com/jensnti/prog1-ovn).
+
+Kör koden.
 
 {% endextra %}
 
