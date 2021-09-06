@@ -25,7 +25,7 @@ Python kan du ladda ned från den officiella webbplatsen, [python.org](https://w
 - Ladda ned Python för din maskin från [python.org](https://www.python.org)
 - Kör installationsprogrammet
 
-🛑 Kryssa i checkboxen för att lägga till Python i din path.
+🛑 Kryssa i checkboxen för att lägga till Python i din path (du behöver sannolikt också välja **Disable path length limit**).
 
 När installationen är färdig ska du kunna starta Python terminalen.
 
