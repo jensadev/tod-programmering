@@ -10,4 +10,4 @@ eleventyNavigation:
 Den här webbplatsen är ett komplement till kursboken.
 {% endlead %}
 
-I programmering är det viktigt att skriva kod. Koda uppgifterna. 
+När du lär dig programmering är det viktigt att skriva kod. **Koda uppgifterna**. 
