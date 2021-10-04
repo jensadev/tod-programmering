@@ -1,11 +1,12 @@
 ---
-title: Funktioner
+title: Math funktioner
 eleventyNavigation:
-    key: funktioner
-    parent: text
+    key: math funktioner
+    parent: räkna
     order: 5
     excerpt: 
 ---
+
 {% intro %}
 
 ## Introduktion
