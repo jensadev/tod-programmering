@@ -1,6 +1,14 @@
 {
     "items": [
         {
+            "text": "📄 Innehåll för området Räkna",
+            "date": "2021-10-04"
+        },
+        {
+            "text": "🐛 Sidor med namnet funktioner fungerar nu som tänkt",
+            "date": "2021-10-04"
+        },
+        {
             "text": "Område: algoritmer med tillhörande delar",
             "date": "2021-09-22"
         },
