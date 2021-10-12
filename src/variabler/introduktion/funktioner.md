@@ -19,26 +19,13 @@ För att ladda in en modul används ```import```.
 
 ### Tänk på
 - Ibland kallas funktion för metoder, det är samma sak
-- Innan du kodar, finns funktionen du söker i språket redan
+- Innan du börjar koda, undersök om en funktion redan finns i språket
 
 {% endintro %}
 
 {% instruktioner %}
 
 ## Instruktioner
-
-Koda och testa ett antal matematiska standardfunktioner i Python.
-För att använda dem behöver modulen ```math``` importeras.
-Funktionera är sedan tillgängliga med punktnotation ```math.floor(värde```).
-
-```python
-import math
-
-print(math.pi)
-
-avrunda = math.ceil(math.pi)
-print(avrunda)
-```
 
 Med en [IDE](/kom-igang/installation/visual-studio-code.html) så går det att se vilka funktioner som finns i en modul.
 
@@ -47,6 +34,18 @@ Importera modulen math och skriv sedan ```math.```, du bör nu få förslag på 
 
 ```python
 import math
+```
+
+Utan math kan ```round()``` användas för avrundning. Men i math modulen finns även metoderna ```math.ceil()``` och ```math.floor()``` för avrundning. Testa dem och jämför resultaten.
+
+Python kommer även med ett stort antal funktioner för datatypen ```string```, för att använda de vanligaste sträng metoderna behöver du inte importera någon modul.
+```python
+s = "MittNamn"
+print(s.upper())
+print(s.swapcase())
+
+små = s.lower()
+print(små.capitalize())
 ```
 
 {% endinstruktioner %}
@@ -61,15 +60,7 @@ Koda och använd dig av en eller flera matematiska standardfunktioner.
 
 #### Uppgift 2
 
-Kombinera matematiska funktioner med ```input()``` och ```print()```.
+Kombinera en eller flera funktioner med ```input()``` och ```print()```.
 
-### ⭐⭐
-
-{% extra %}
-
-
-
-
-{% endextra %}
 
 {% enduppgifter %}

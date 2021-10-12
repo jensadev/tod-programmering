@@ -12,11 +12,11 @@ eleventyNavigation:
 
 Inom programmering används uttryck på flera sätt. Det kan vara numeriska uttryck (precis som i matematiken)eller logiska uttryck (jämföra två värden till exempel).
 
-Uttryck skrivs ```operand operator operand``` och värdet beräknas när programmet körs.
+Uttryck skrivs ```operand operator operand``` och värdet beräknas när programmet körs, inte när koden skrivs.
 
 En operand kan vara:
 - ett direkt värde, ```12```
-- en variabel, ```tal1 = 12```
+- en variabel, ```tal```
 - variabler kan vara av olika typer, inte bara numeriska
 
 ### Tänk på
@@ -68,16 +68,5 @@ Använd dig av ```input()```.
 #### Uppgift 2
 
 Jämför variabler/värden och skriv ut resultatet.
-
-### ⭐⭐
-{% extra %}
-
-#### Uppgift 3
-
-Koda ett program där användaren får gissa på ett tal mellan 1 och 10.
-Skapa två variabler, en med ett kodat värde och en med en gissning (använd ```input()```).
-Jämför dessa värden och skriv ut om gissningen var rätt eller fel.
-
-{% endextra %}
 
 {% enduppgifter %}

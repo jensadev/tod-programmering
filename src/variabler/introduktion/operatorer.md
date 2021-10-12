@@ -32,7 +32,7 @@ Skriv kod för att se hur operatorer fungerar. Använd både aritmetiska operato
 Operander, till exempel en siffra, bildar tillsammans med en operator ett uttryck.
 Efter modellen ```operand operator operand```.
 
-Här följer ett antal exempel på uttryck.
+Här följer ett antal exempel på hur aritmetiska operatorer kan användas för att bilda uttryck.
 ```python
 12 + 12
 12 - 12
@@ -84,3 +84,15 @@ Koda och testa jämförande operatorer.
 Använd variabler av typen ```string``` för det.
 
 {% enduppgifter %}
+
+{% facit %}
+
+För att jämföra om två värden är samma används likamed operatorn ```==```.
+
+```python
+namn1 = "Frasse"
+namn2 = "Melinda"
+
+print(namn1 == namn2)
+```
+{% endfacit %}
