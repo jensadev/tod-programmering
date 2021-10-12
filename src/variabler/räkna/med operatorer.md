@@ -1,7 +1,7 @@
 ---
-title: Operatorer
+title: Med operatorer
 eleventyNavigation:
-    key: operatorer
+    key: med operatorer
     parent: räkna
     order: 3
     excerpt: 
@@ -30,17 +30,17 @@ I mappen ```📁räkna``` skapar du ```operatorer.py```.
 
 Du har i flera uppgifter tidigare använt dig av operatorer, så detta är främst repetition.
 
-Skriv ett program som använder följande aritmetiska operatorer.
+Skriv ett eller flera program som använder aritmetiska operatorer.
 
-```python
-+
--
-*
-/
-//
-%
-**
-```
+|Operator|Förklaring|
+|---|---|
+|`+`|Addition|
+|`-`|Subtraktion|
+|`*`|Multiplikation|
+|`/`|Division|
+|`//`|Division kapat till heltal|
+|`%`|Rest vid division|
+|`**`|Upphöjt till andra operatorn|
 
 {% endinstruktioner %}
 
@@ -53,6 +53,8 @@ Skriv ett program som använder följande aritmetiska operatorer.
 Undersök vad de olika aritmetiska operatorerna gör.
 Använd variabler av typen ```int``` och ```float```.
 
+Du kan kontrollera en variabels typ med type metoden, ```print(type(VARIABELNAMN))```.
+
 #### Uppgift 2
 
 Vad händer om du använder aritmetiska operatorer på variabler av typen ```string```.
@@ -61,12 +63,20 @@ Vad händer om du använder aritmetiska operatorer på variabler av typen ```str
 
 {% facit %}
 
-En variabel med typen ```string``` är en variabel som kan innehålla alla former av tecken.
-Den kännetecknas av att värdet är omgivet av enkel- eller dubbelfnuttar.
+En variabel med typen ```string``` är en variabel som kan innehålla alla former av tecken. Det är inte en numerisk datatyp och den går inte att räkna med.
+Strängar kännetecknas av att värdet är omgivet av enkel- eller dubbelfnuttar.
 
 ```python
 sträng = "Hejsan"
 sträng = 'Hej'
 ```
+
+För att kontrollera en variabels typ kan vi använda ```assert``` och ```type()``` tillsammans. 
+```python
+summa  = 23 / 3
+assert type(summa) == float, "Summan är inte en float"
+```
+
+Här används likamed operatorn ```==``` för att se om resultatet av uttrycket ```type(summa) == float``` är ```True``` eller ```False```.
 
 {% endfacit %}

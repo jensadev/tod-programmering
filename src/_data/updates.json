@@ -1,6 +1,14 @@
 {
     "items": [
         {
+            "text": "📄 Förbättrat innehåll för områdena introduktion och räkna",
+            "date": "2021-10-12"
+        },
+        {
+            "text": "🐛 Fixat sidor med samma namn, intro -> uttryck går inte till räkna/uttryck osv.",
+            "date": "2021-10-12"
+        },
+        {
             "text": "📄 Innehåll för området Räkna",
             "date": "2021-10-04"
         },

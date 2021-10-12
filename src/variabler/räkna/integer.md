@@ -47,7 +47,7 @@ print(f"Summan av talen är {summa}")
 Prova att koda med inmatning till heltal, du behöver då konvertera värdet.
 
 ```python
-tal1 = input("Skriv in ett heltal: ")
+tal1 = input("Skriv in ett jämnt heltal: ")
 print(type(tal1))
 
 tal1 = int(tal1)
@@ -67,10 +67,30 @@ Skriv ut summan av flera variabler och använd dig av formaterade strängar.
 
 Din utskrift ska se ut som följer: ```Summan av 12 + 24 är 36```.
 
-### ⭐⭐
+#### Uppgift 2
 
 Koda och använd dig av input för att mata in två tal.
 Programmet ska sedan räkna ut summan och skriva ut den.
 Formatera utskriften.
 
 {% enduppgifter %}
+
+{% facit %}
+
+För att programmatiskt kontrollera en inmatning kan du använda dig av Pythons assert. Det är en debug-funktion som finns för att hjälpa dig skriva bättre kod. Assert kontrollerar om ett uttryck är sant, om inte så kastar den ett undantag.
+
+För att kontrollera summan från de första exemplet kan du använda assert.
+Om summan är 36 (12+24) så händer inget, men är summan något annat så skrivs den följande texten ut "Summan är inte 36".
+```python
+assert summa == 36, "Summan är inte 36"
+```
+
+I den andra uppgiften kan du använda assert för att kontrollera att talet faktiskt är jämnt.
+Här används modulo operatorn för att undersöka om talet är jämnt.
+```python
+assert tal1 % 2 == 0, "Talet är inte jämt"
+```
+
+Modulo räknar ut resten av division. Om talet är jämt så blir resten 0. Det dubbla likamedtecknet jämför resultatet med 0, om uttrycket är sant så är talet jämt.
+
+{% endfacit %}
