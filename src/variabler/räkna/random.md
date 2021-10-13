@@ -11,6 +11,10 @@ eleventyNavigation:
 
 ## Introduktion
 
+Python har en modul för att generera slumptal, den heter random. Modulen skapar så kallade pseudoslumpat tal, med det menas att modulen inte skapar ett helt slumpmässigt tal, men det är tillräckligt slumpmässigt.
+Detta tal grundas i systemets tid.
+
+Eftersom talet inte är helt slumpmässigt bör det inte användas i säkerhetssammanhang.
 
 ### Tänk på
 
@@ -28,6 +32,7 @@ Leta upp din kod där du bad användaren mata in ett tal mellan 1 till 10.
 Du ska nu bygga vidare på detta program.
 
 Inmatningen är en gissning och vi ska nu använda random modulen för att slumpa fram ett rätt svar.
+För att skapa ett slumpmässigt heltal (int) används metoden ```randint()```. Metoden kräver två parametrar, det minstal talet och det största.
 
 ```python
 import random
