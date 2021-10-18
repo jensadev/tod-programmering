@@ -43,7 +43,7 @@ Symbolerna kopplas sedan ihop med pilar för att beskriva algoritmens flöde.
 ### ⭐
 #### Uppgift 1
 
-Använda papper och penna och rita ett flödesschema för någon av algoritmerna från föregående del.
+Använda papper och penna och rita ett flödesschema för någon av algoritmerna från delen om [pseudokod](../pseudokod).
 
 #### Uppgift 2
 

@@ -43,10 +43,12 @@ Hitta flera exempel på algoritmer:
 ### ⭐
 #### Uppgift 1
 
-Titta på filmen och sök reda på algoritmer.
+Titta på filmen. Vilka former av algoritmer pratar de om i filmen?
+
+Sök reda på en eller flera algoritmer.
 
 #### Uppgift 2
 
-Skriv en algoritm för att laga din favoritmaträtt.
+Skriv en algoritm för att laga en maträtt.
 
 {% enduppgifter %}
