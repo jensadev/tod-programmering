@@ -29,7 +29,7 @@ Om en variabel i Python tilldelas ett numeriskt värde utan decimaler så blir d
 Om du inte har skapat en ```📁övningsmapp``` för kursen så skapa en sådan nu.
 Koppla detta sedan till ett GitHub-repository.
 
-Om du vill så kan du skapa en undermapp med titeln ```📁räkna``` för det här avsnittet.
+Om du vill så kan du skapa en undermapp med titeln ```📁räkna``` för det här området.
 
 Skapa sedan en Python fil, som heter ```📄integer.py```.
 
