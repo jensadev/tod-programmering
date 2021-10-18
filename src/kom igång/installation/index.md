@@ -2,6 +2,7 @@
 title: Installation
 layout: "layouts/area.njk"
 category: område
+permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: installation
     parent: kom igång

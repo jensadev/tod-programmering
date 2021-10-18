@@ -2,7 +2,7 @@
 title: Felhantering
 layout: "layouts/theme.njk"
 category: tema
-permalink: "{{ page.filePathStem | splice | slugUrl }}/{{ title | slug }}.html"
+permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: felhantering
     parent: programmering 1
