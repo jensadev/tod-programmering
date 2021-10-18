@@ -38,17 +38,17 @@ message = "Vem ska gå till mormor? " + name
 print(message)
 ```
 
+Innehållet i en sträng kan även vara [unicode karaktärer](http://unicode.org/charts/).
 En sträng kan också skrivas på flera rader.
 
 ```python
-message = """Denna sträng 
-kan skrivas 
+message = """Denna sträng kan skrivas \U000021B4
 över flera rader.
 """
 print(message)
 
 message = "Jämför med "\
-"det här."
+"det här \U0001F601."
 print(message)
 ```
 
