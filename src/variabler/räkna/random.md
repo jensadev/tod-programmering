@@ -25,7 +25,7 @@ Slumptalet som skapas är baserat på systemets tid.
 
 ## Instruktioner
 
-Skapa en fil att arbeta i, ```gissa.py```.
+Skapa en fil att arbeta i, ```gissa.py```. Döp inte filen till ```random.py``` för då kommer Python försöka ladda den som en modul.
 
 Kopiera koden från delen [Med uttryck](med-uttryck.html) där du bad användaren mata in ett tal mellan 1 till 10.
 Du ska nu bygga vidare på detta program.
