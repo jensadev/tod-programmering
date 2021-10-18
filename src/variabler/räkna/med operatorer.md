@@ -26,9 +26,9 @@ Dessa tecken är olika operatorer i programmeringsspråket och låter dig bland 
 
 ## Instruktioner
 
-I mappen ```📁räkna``` skapar du ```operatorer.py```.
+Skapa en fil att arbeta i, ```operatorer.py```.
 
-Du har i flera uppgifter tidigare använt dig av operatorer, så detta är främst repetition.
+Du har i flera uppgifter tidigare använt dig av operatorer, så detta är främst repetition. Öppna och undersök dina tidigare program från området [Introduktion](/variabler/introduktion).
 
 Skriv ett eller flera program som använder aritmetiska operatorer.
 
