@@ -27,9 +27,11 @@ Om en variabel i Python tilldelas ett numeriskt värde utan decimaler så blir d
 ## Instruktioner
 
 Om du inte har skapat en ```📁övningsmapp``` för kursen så skapa en sådan nu.
-I den kan du skapa en undermapp med titeln ```📁räkna```.
+Koppla detta sedan till ett GitHub-repository.
 
-I mappen ```📁räkna``` skapar du sedan en Python fil, som heter ```📄integer.py```.
+Om du vill så kan du skapa en undermapp med titeln ```📁räkna``` för det här området.
+
+Skapa sedan en Python fil, som heter ```📄integer.py```.
 
 ```python
 tal1 = 12
@@ -44,7 +46,10 @@ print(summa)
 print(f"Summan av talen är {summa}")
 ```
 
-Prova att koda med inmatning till heltal, du behöver då konvertera värdet.
+Prova att koda så att användaren kan mata in ett heltal, det gör du med ```input(meddelande)```.
+Värdet från ```input()``` är alltid en sträng, så värdet behöver konverteras om du ska kunna räkna med det.
+
+Konverteringen av värdet görs med ```int(värde)```.
 
 ```python
 tal1 = input("Skriv in ett jämnt heltal: ")

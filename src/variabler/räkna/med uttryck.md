@@ -27,7 +27,7 @@ Men uttryck används till så mycket mer i programmeringen. Bland annat så anv�
 
 ## Instruktioner
 
-I mappen ```📁räkna``` skapar du ```uttryck.py```.
+Skapa en fil att arbeta i, ```uttryck.py```.
 
 Uttryck finns överallt i programmeringen och är grundläggande för programmets funktion. 
 I nästa alla tidigare program du har skrivit kan du se hur du skapar ett uttryck.

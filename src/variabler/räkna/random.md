@@ -11,14 +11,13 @@ eleventyNavigation:
 
 ## Introduktion
 
-Python har en modul för att generera slumptal, den heter random. Modulen skapar så kallade pseudoslumpat tal, med det menas att modulen inte skapar ett helt slumpmässigt tal, men det är tillräckligt slumpmässigt.
-Detta tal grundas i systemets tid.
-
-Eftersom talet inte är helt slumpmässigt bör det inte användas i säkerhetssammanhang.
+Python har en modul för att generera slumptal, den heter random. Modulen kan skapa så kallade pseudoslumpade tal. Med pseudoslumpat menas att modulen inte skapar ett helt slumpmässigt tal, men det är tillräckligt slumpmässigt.
+Slumptalet som skapas är baserat på systemets tid.
 
 ### Tänk på
 
 - Ladda modulen random, ```import random```
+- Eftersom talet inte är helt slumpmässigt ska det inte användas i säkerhetssammanhang
 
 {% endintro %}
 
@@ -26,12 +25,12 @@ Eftersom talet inte är helt slumpmässigt bör det inte användas i säkerhetss
 
 ## Instruktioner
 
-I mappen ```📁räkna``` skapar du ```gissa.py```.
+Skapa en fil att arbeta i, ```gissa.py```.
 
-Leta upp din kod där du bad användaren mata in ett tal mellan 1 till 10.
+Kopiera koden från delen [Med uttryck](med-uttryck.html) där du bad användaren mata in ett tal mellan 1 till 10.
 Du ska nu bygga vidare på detta program.
 
-Inmatningen är en gissning och vi ska nu använda random modulen för att slumpa fram ett rätt svar.
+Inmatningen är en gissning och vi ska nu använda random modulen för att slumpa fram rätt svar.
 För att skapa ett slumpmässigt heltal (int) används metoden ```randint()```. Metoden kräver två parametrar, det minstal talet och det största.
 
 ```python

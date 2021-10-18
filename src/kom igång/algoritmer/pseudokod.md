@@ -12,7 +12,7 @@ eleventyNavigation:
 ## Introduktion
 
 Pseudokod är ett sätt att skriva ned och uttrycka en algoritm. Du använder helt enkelt ditt vanliga språk för att beskriva en algoritm.
-Detta sätta att skriva ned en algoritm som vanligt språk återfinns i till exempel recept, men det är även ett bra sätt att strukturera upp ett program innan du börjar koda.
+Att skriva en algoritm med vanligt språk finns i bland annat recept. Det är även ett bra sätt att strukturera och planera ett program innan du börjar koda.
 
 ### Tänk på
 
@@ -42,7 +42,7 @@ Stek pannkakorna i smör i stekpannan
 Stoppa i gapet och njut
 ```
 
-För ett datorprogram så behöver vi förfina lösningen och eventuellt vara mer exakt.
+För ett datorprogram så behöver vi förfina lösningen och eventuellt vara mer exakt. Det kan även krävas att koden innehåller val eller upprepningar.
 
 ```
 Ingredienser:
@@ -53,7 +53,11 @@ Ingredienser:
 
 Blanda salt med mjöl i en bunke
 Vispa ned mjölk / 2 i bunken
-...
+
+SÅ LÄNGE smeten inte är slät:
+    vispa
+
+Vispa ned resten av mjölk / 2 och äggen...
 ```
 
 {% endinstruktioner %}
@@ -65,7 +69,7 @@ Vispa ned mjölk / 2 i bunken
 #### Uppgift 1
 
 Studera pseudokoden här brevid.
-Skriv om en eller flera av de algoritmer som du hittade i föregående del till pseudokod.
 
+Skriv om en eller flera av de algoritmer som du hittade i föregående del till pseudokod.
 
 {% enduppgifter %}

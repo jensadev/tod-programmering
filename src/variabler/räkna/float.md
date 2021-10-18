@@ -26,7 +26,7 @@ Om en variabel i Python tilldelas ett numeriskt värde med en *decimalpunkt* så
 
 ## Instruktioner
 
-I mappen ```📁räkna``` skapar du ```📄float.py```
+Skapa en fil att arbeta i, ```📄float.py```.
 
 ```python
 pris_utan_moms = 250
@@ -46,10 +46,11 @@ print(f"Priset med moms är {pris_med_moms}")
 #### Uppgift 1
 
 Skriv av programmet ovan.
-Redigera sedan programmet så att användaren kan mata in momssatsen.
+
+Redigera sedan programmet så att användaren kan mata in momsen.
 
 #### Uppgift 2
-Gör så att användaren kan mata in momssatsen i procent.
+Gör så att användaren kan mata in momsen i procent.
 Ditt program ska sedan omvandla procentsatsen så att den går att räkna med.
 
 {% enduppgifter %}

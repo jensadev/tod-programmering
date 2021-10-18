@@ -24,10 +24,13 @@ I det tidigare avsnittet om funktioner så introducerades kort några av de mate
 
 ## Instruktioner
 
+Skapa en fil att arbeta i, ```math_funktioner.py```.
+
 Koda och testa ett antal matematiska standardfunktioner i Python.
 För att använda dem behöver modulen ```math``` importeras.
 
-Funktionera är sedan tillgängliga med punktnotation ```math.floor(värde```).
+Funktionera är sedan tillgängliga med det som kallas punktnotation. Du skriver då modulens namn **.** funktionens namn.
+ ```math.floor(värde```).
 
 ```python
 import math
@@ -38,7 +41,7 @@ avrunda = math.ceil(math.pi)
 print(avrunda)
 ```
 
-Din [IDE](/kom-igang/installation/visual-studio-code.html) hjälper dig att se vilka funktioner som finns tillgängliga i en modul. Skriv modulens namn följt av punkt.
+Din [IDE](/kom-igang/installation/visual-studio-code.html) hjälper dig att se vilka funktioner som finns tillgängliga i en modul. Skriv modulens namn så bör en lista på metoder visas.
 
 {% endinstruktioner %}
 
