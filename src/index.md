@@ -1,9 +1,9 @@
 ---
-title: Programmering 1
+title: Programmering
 layout: "layouts/home.njk"
 category: ämne
 eleventyNavigation:
-    key: programmering 1
+    key: programmering
     excerpt: Kursens startsida
 ---
 {% lead %}

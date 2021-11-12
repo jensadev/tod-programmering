@@ -1,11 +1,11 @@
 ---
 title: Felhantering
-layout: "layouts/theme.njk"
+layout: "layouts/theme-area.njk"
 category: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: felhantering
-    parent: programmering 1
+    parent: programmering
     order: 4
     excerpt: 
 ---

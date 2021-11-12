@@ -9,6 +9,8 @@ const Image = require('@11ty/eleventy-img');
 const searchFilter = require('./src/filters/search-filter');
 const dateFilter = require('./src/filters/date-filter');
 
+const parseTransform = require('./src/transforms/parse-transform.js');
+
 // Create a helpful production flag
 const isProduction = process.env.NODE_ENV === 'production';
 
@@ -20,8 +22,8 @@ async function imageShortcode(src, alt, sizes) {
     });
 
     let imageAttributes = {
-        alt: alt,
-        sizes : sizes || '100%',
+        alt,
+        sizes: sizes || '100%',
         loading: 'lazy',
         decoding: 'async'
     };
@@ -30,6 +32,21 @@ async function imageShortcode(src, alt, sizes) {
     return Image.generateHTML(metadata, imageAttributes, {
         whitespaceMode: 'inline'
     });
+}
+
+// https://stackoverflow.com/questions/1129216/sort-array-of-objects-by-string-property-value
+function sortArray(array, property, direction) {
+    direction = direction || 1;
+    array.sort(function compare(a, b) {
+        let comparison = 0;
+        if (a[property] > b[property]) {
+            comparison = 1 * direction;
+        } else if (a[property] < b[property]) {
+            comparison = -1 * direction;
+        }
+        return comparison;
+    });
+    return array; // Chainable
 }
 
 module.exports = function (eleventyConfig) {
@@ -97,6 +114,20 @@ module.exports = function (eleventyConfig) {
         return `<p class="lead">${content}</p>`;
     });
 
+    eleventyConfig.addFilter('fixTestsPages', (object) => {
+        let result = [];
+        if (!object) return result;
+        for (const [key, value] of Object.entries(object)) {
+            let temp = {};
+            temp.title = value.data.title;
+            temp.excerpt = value.data.eleventyNavigation.excerpt;
+            temp.url = value.url;
+            result.push(temp);
+        }
+        result = sortArray(result, 'order');
+        return result;
+    });
+
     eleventyConfig.addFilter('splice', (path) => {
         return path.split('/').slice(0, -1).join('/');
     });
@@ -150,6 +181,7 @@ module.exports = function (eleventyConfig) {
         });
     eleventyConfig.setLibrary('md', markdownLibrary);
 
+    eleventyConfig.addTransform('parse', parseTransform);
     eleventyConfig.setUseGitIgnore(false);
 
     return {

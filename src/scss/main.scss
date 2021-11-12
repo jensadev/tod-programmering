@@ -44,7 +44,11 @@ main {
 }
 
 .invisible {
-    display: none;
+    display: none !important;
+}
+
+li.test{
+    font-weight: 700;
 }
 
 @import "components/navbar";

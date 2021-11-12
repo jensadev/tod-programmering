@@ -1,6 +1,6 @@
 ---
 title: Räkna
-layout: "layouts/area.njk"
+layout: "layouts/theme-area.njk"
 category: område
 permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
