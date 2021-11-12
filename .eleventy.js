@@ -116,6 +116,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addFilter('fixTestsPages', (object) => {
         let result = [];
+        if (!object) return result;
         for (const [key, value] of Object.entries(object)) {
             let temp = {};
             temp.title = value.data.title;
