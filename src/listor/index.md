@@ -1,11 +1,11 @@
 ---
 title: Listor
-layout: "layouts/theme.njk"
+layout: "layouts/theme-area.njk"
 category: tema
 permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
 eleventyNavigation:
     key: listor
-    parent: programmering 1
+    parent: programmering
     order: 5
     excerpt: 
 ---
