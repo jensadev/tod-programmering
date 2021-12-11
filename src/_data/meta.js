@@ -25,14 +25,13 @@ module.exports = {
     url: process.env.URL || 'http://localhost:8080',
     // page language
     language: 'sv',
-   // Sidans namn, måste överrensstämma med src/index.md title front matter
+    // Sidans namn, måste överrensstämma med src/index.md title front matter
     siteName: 'Programmering',
     themeColor: getColorPick(), // pick or color string '#ff4e50'
-    siteDescription:
-        'Kurssida för gymnasiekursen Programmering 1 med Python.',
+    siteDescription: 'Kurssida för gymnasiekursen Programmering 1 med Python.',
     author: {
         name: 'Jens Andreasson',
         email: 'jens.andreasson@ntig.se',
-        url: 'https://jensa.xyz'
-    }
+        url: 'https://jensa.xyz',
+    },
 };

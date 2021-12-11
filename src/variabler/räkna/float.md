@@ -4,21 +4,21 @@ eleventyNavigation:
     key: float
     parent: räkna
     order: 2
-    excerpt: 
+    excerpt:
 ---
+
 {% intro %}
 
 ## Introduktion
 
-Float står för flyttal och skrivs ```float``` i Python. I Python är en float ett tal som innehåller en *decimalpunkt*.
+Float står för flyttal och skrivs `float` i Python. I Python är en float ett tal som innehåller en _decimalpunkt_.
 
-Om en variabel i Python tilldelas ett numeriskt värde med en *decimalpunkt* så kommer det att bli en float.
+Om en variabel i Python tilldelas ett numeriskt värde med en _decimalpunkt_ så kommer det att bli en float.
 
 ### Tänk på
 
-- Använd en *decimalpunkt* och inte ett *decimalkomma*
-- För att konvertera en annan datatyp till float använd ```float(värde)```
-
+-   Använd en _decimalpunkt_ och inte ett _decimalkomma_
+-   För att konvertera en annan datatyp till float använd `float(värde)`
 
 {% endintro %}
 
@@ -26,7 +26,7 @@ Om en variabel i Python tilldelas ett numeriskt värde med en *decimalpunkt* så
 
 ## Instruktioner
 
-Skapa en fil att arbeta i, ```📄float.py```.
+Skapa en fil att arbeta i, `📄float.py`.
 
 ```python
 pris_utan_moms = 250
@@ -42,7 +42,9 @@ print(f"Priset med moms är {pris_med_moms}")
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Skriv av programmet ovan.
@@ -50,6 +52,7 @@ Skriv av programmet ovan.
 Redigera sedan programmet så att användaren kan mata in momsen.
 
 #### Uppgift 2
+
 Gör så att användaren kan mata in momsen i procent.
 Ditt program ska sedan omvandla procentsatsen så att den går att räkna med.
 

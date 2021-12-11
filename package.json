@@ -11,7 +11,9 @@
         "build:eleventy": "eleventy",
         "build:rollup": "rollup -c",
         "start": "npm-run-all color-tokens --parallel watch:*",
-        "build": "npm-run-all color-tokens --parallel build:*"
+        "build": "npm-run-all color-tokens --parallel build:*",
+        "lint": "eslint --fix .",
+        "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
     },
     "repository": {
         "type": "git",
@@ -32,11 +34,12 @@
         "@11ty/eleventy-navigation": "^0.2.0",
         "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.6",
         "@11tyrocks/eleventy-plugin-emoji-readtime": "^1.0.1",
-        "@tbranyen/jsdom": "^13.0.0",
         "a11y-color-tokens": "^0.4.0",
         "canvas-confetti": "^1.4.0",
         "date-fns": "^2.23.0",
         "elasticlunr": "^0.9.5",
+        "fast-glob": "^3.2.7",
+        "jsdom": "^18.1.0",
         "markdown-it": "^10.0.0",
         "markdown-it-anchor": "^7.1.0",
         "markdown-it-link-attributes": "^3.0.0",
@@ -49,5 +52,13 @@
         "rollup-plugin-node-resolve": "^5.2.0",
         "rollup-plugin-terser": "^7.0.2",
         "sass": "^1.34.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.2.0",
+        "eslint-config-google": "^0.14.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-simple-import-sort": "^7.0.0",
+        "prettier": "^2.4.1"
     }
 }

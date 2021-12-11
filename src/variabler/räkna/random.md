@@ -4,7 +4,7 @@ eleventyNavigation:
     key: random
     parent: räkna
     order: 6
-    excerpt: 
+    excerpt:
 ---
 
 {% intro %}
@@ -16,8 +16,8 @@ Slumptalet som skapas är baserat på systemets tid.
 
 ### Tänk på
 
-- Ladda modulen random, ```import random```
-- Eftersom talet inte är helt slumpmässigt ska det inte användas i säkerhetssammanhang
+-   Ladda modulen random, `import random`
+-   Eftersom talet inte är helt slumpmässigt ska det inte användas i säkerhetssammanhang
 
 {% endintro %}
 
@@ -25,13 +25,13 @@ Slumptalet som skapas är baserat på systemets tid.
 
 ## Instruktioner
 
-Skapa en fil att arbeta i, ```gissa.py```. Döp inte filen till ```random.py``` för då kommer Python försöka ladda den som en modul.
+Skapa en fil att arbeta i, `gissa.py`. Döp inte filen till `random.py` för då kommer Python försöka ladda den som en modul.
 
 Kopiera koden från delen [Med uttryck](med-uttryck.html) där du bad användaren mata in ett tal mellan 1 till 10.
 Du ska nu bygga vidare på detta program.
 
 Inmatningen är en gissning och vi ska nu använda random modulen för att slumpa fram rätt svar.
-För att skapa ett slumpmässigt heltal (int) används metoden ```randint()```. Metoden kräver två parametrar, det minstal talet och det största.
+För att skapa ett slumpmässigt heltal (int) används metoden `randint()`. Metoden kräver två parametrar, det minstal talet och det största.
 
 ```python
 import random
@@ -46,7 +46,9 @@ Det slumpade talet behöver sedan jämföras med användarens inmatning och resu
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Skriv programmet.
@@ -57,7 +59,7 @@ Skriv programmet.
 
 #### Uppgift 2
 
-Använd val, ```if``` och ```else``` för att skriva ut olika meddelanden till användaren beroende på om gissningen var rätt eller fel.
+Använd val, `if` och `else` för att skriva ut olika meddelanden till användaren beroende på om gissningen var rätt eller fel.
 
 {% endextra %}
 
@@ -65,15 +67,17 @@ Använd val, ```if``` och ```else``` för att skriva ut olika meddelanden till a
 
 {% facit %}
 
-Val i kod skrivs med ```if``` och ```else```. Ett sätt att läsa den koden är:
+Val i kod skrivs med `if` och `else`. Ett sätt att läsa den koden är:
+
 ```
 OM uttryck är SANT
     utför
-ANNARS 
+ANNARS
     utför
 ```
 
 Syntax och kod för att skriva ut användarens gissning blir alltså.
+
 ```python
 if gissning == slump_tal:
     print("Rätt!")

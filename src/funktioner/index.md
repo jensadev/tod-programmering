@@ -1,12 +1,13 @@
 ---
 title: Funktioner
-layout: "layouts/theme-area.njk"
+layout: 'layouts/theme-area.njk'
 category: tema
-permalink: "{{ page.filePathStem | splice | slugUrl }}/index.html"
+permalink: '{{ page.filePathStem | splice | slugUrl }}/index.html'
 eleventyNavigation:
     key: funktioner
     parent: programmering
     order: 6
-    excerpt: 
+    excerpt:
 ---
+
 ## Områden i temat {{ title }}

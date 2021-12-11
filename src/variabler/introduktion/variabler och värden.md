@@ -4,8 +4,9 @@ eleventyNavigation:
     key: variabler och värden
     parent: introduktion
     order: 1
-    excerpt: 
+    excerpt:
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -19,12 +20,12 @@ Under detta så är lådan en minnesplats på datorn som programspråket använd
 
 ### Tänk på
 
-- Att namnet på en variabel ska vara begripligt och tydligt
-- Variabler skapas genom att tilldela ett namn ett värde
-- Vid tilldelningen av ett värde bestäms variabelns datortyp
-- Använd ett system för namnen på variabler
-    - camelCase
-    - snake_case
+-   Att namnet på en variabel ska vara begripligt och tydligt
+-   Variabler skapas genom att tilldela ett namn ett värde
+-   Vid tilldelningen av ett värde bestäms variabelns datortyp
+-   Använd ett system för namnen på variabler
+    -   camelCase
+    -   snake_case
 
 {% endintro %}
 
@@ -67,7 +68,9 @@ type(tal1)
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Skapa flera variabler
