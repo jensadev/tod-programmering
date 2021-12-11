@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 2
     excerpt: IDE
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -16,10 +17,10 @@ VSCode är ett gratis IDE från Microsoft.
 
 ### Tänk på
 
-- Att lär dig programmet VSCode
-- En IDE är ett program som hjälper dig koda
-- Undersök vad det finns för tillägg
-- Använd Open Folder för att öppna dina projekt
+-   Att lär dig programmet VSCode
+-   En IDE är ett program som hjälper dig koda
+-   Undersök vad det finns för tillägg
+-   Använd Open Folder för att öppna dina projekt
 
 {% endintro %}
 
@@ -27,14 +28,14 @@ VSCode är ett gratis IDE från Microsoft.
 
 ## Instruktioner
 
-- Ladda ned [VSCode](https://code.visualstudio.com)
-- Kör installationsprogrammet
+-   Ladda ned [VSCode](https://code.visualstudio.com)
+-   Kör installationsprogrammet
 
 När VSCode är installerat så starta programmet och bekanta dig med gränssnittet.
 
-- Byt färgtema
-    - Öppna inställningar (settings) ⚙️
-    - Välj färgtema (color theme)
+-   Byt färgtema
+    -   Öppna inställningar (settings) ⚙️
+    -   Välj färgtema (color theme)
 
 Sök sedan under extensions (ctrl+shift+x) efter ett tema (sökord theme). Försök hitta något du gillar och installera det.
 
@@ -43,7 +44,9 @@ Sök sedan under extensions (ctrl+shift+x) efter ett tema (sökord theme). Förs
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Installera VSCode och testa det

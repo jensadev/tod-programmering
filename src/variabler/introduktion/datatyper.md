@@ -4,21 +4,22 @@ eleventyNavigation:
     key: datatyper
     parent: introduktion
     order: 2
-    excerpt: 
+    excerpt:
 ---
+
 {% intro %}
 
 ## Introduktion
 
 En variabel innehåller data. Den data som en variabel innehåller kan vara av olika typer. I Python får en variabel sin typ beroende på det värde som variabeln tilldelas.
 
-Tilldelas en variabel data med text så blir typen ```string``` och är det ett numeriskt värde så blir typen antingen ```int``` eller ```float```.
+Tilldelas en variabel data med text så blir typen `string` och är det ett numeriskt värde så blir typen antingen `int` eller `float`.
 
 ### Tänk på
 
-- En variabel får sin typ av värdet
-- Typen kan ändras
-- Variabler kan återanvändas
+-   En variabel får sin typ av värdet
+-   Typen kan ändras
+-   Variabler kan återanvändas
 
 {% endintro %}
 
@@ -30,9 +31,9 @@ Koda i [Python](/kom-igang/installation/python.html)-terminalen eller [Replit](/
 I [föregående uppgift](../variabler-och-varden/) så skapade du variabler av typen int.
 Skapa nu en eller flera variabler med olika typer.
 
-Använd dig av funktionen ```type(variabel)``` för att undersöka variablers typer.
+Använd dig av funktionen `type(variabel)` för att undersöka variablers typer.
 
-För att se en variabels värde skriver du namnet (i terminalen) eller skriver ut variabeln med funktionen ```print(variabelnamn)```.
+För att se en variabels värde skriver du namnet (i terminalen) eller skriver ut variabeln med funktionen `print(variabelnamn)`.
 
 ```python
 
@@ -47,7 +48,7 @@ summa = summa + float1
 ```
 
 I exemplet ovan så används numeriska variabler.
-Prova nu variabler med typen ```string```.
+Prova nu variabler med typen `string`.
 
 Att "printa" en variabel kan även formateras.
 
@@ -63,16 +64,18 @@ print(f"Hej på dig {namn}")
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Skriv koden och testa variabler med olika typer.
 
-Undersök typen med ```type()``` metoden.
+Undersök typen med `type()` metoden.
 
 #### Uppgift 2
 
-Prova på att använda variabler av typen ```string```.
+Prova på att använda variabler av typen `string`.
 
 Skriv ut strängar med print.
 
@@ -83,10 +86,11 @@ Skriv ut strängar med print.
 #### Uppgift 3
 
 Använd variabler av text- och numerisk typ tillsammans.
-Skriv ut en födelsedags hälsning med ```print()``` som innehåller:
-- För och efternamn
-- Födelsedag
-- Födelsemånaden i text
+Skriv ut en födelsedags hälsning med `print()` som innehåller:
+
+-   För och efternamn
+-   Födelsedag
+-   Födelsemånaden i text
 
 {% endextra %}
 

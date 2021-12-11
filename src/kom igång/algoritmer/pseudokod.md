@@ -4,7 +4,7 @@ eleventyNavigation:
     key: pseudokod
     parent: algoritmer
     order: 2
-    excerpt: 
+    excerpt:
 ---
 
 {% intro %}
@@ -16,10 +16,9 @@ Att skriva en algoritm med vanligt språk finns i bland annat recept. Det är ä
 
 ### Tänk på
 
-- Var tydlig och exakt
-- Försök vara konsekvent i hur du skriver
-- Använd samma uttryck, repetition är bra och gör det tydligare
-
+-   Var tydlig och exakt
+-   Försök vara konsekvent i hur du skriver
+-   Använd samma uttryck, repetition är bra och gör det tydligare
 
 {% endintro %}
 
@@ -31,6 +30,7 @@ Att skriva pseudokod är en del i en process för att förfina en algoritm.
 Det första steget är att skriva ned pseudokoden, sen så redigerar du texten stegvis.
 
 Ett exempel på Pannkakor
+
 ```
 Tag fram ingredienser
 Blanda 1/2tsk salt med 2 1/2dl vatten i en bunke
@@ -65,7 +65,9 @@ Vispa ned resten av mjölk / 2 och äggen...
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Studera pseudokoden här brevid.

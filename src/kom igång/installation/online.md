@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 4
     excerpt: Python kan även köras utan installation
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -16,8 +17,8 @@ Replit körs i webbläsaren med ett konto på webbplatsen.
 
 ### Tänk på
 
-- Kod skriven på replit går att dela och spara
-- Koppla replit kontot till GitHub
+-   Kod skriven på replit går att dela och spara
+-   Koppla replit kontot till GitHub
 
 {% endintro %}
 
@@ -25,7 +26,7 @@ Replit körs i webbläsaren med ett konto på webbplatsen.
 
 ## Instruktioner
 
-Skapa ett konto och logga in på [replit](https://replit.com/). 
+Skapa ett konto och logga in på [replit](https://replit.com/).
 
 För att sedan komma igång och koda.
 
@@ -44,7 +45,9 @@ print(f"Den här koden körs på replit. Min namn är {namn}!")
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Testa att köra Python på replit.

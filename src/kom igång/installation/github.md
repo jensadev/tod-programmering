@@ -6,6 +6,7 @@ eleventyNavigation:
     order: 3
     excerpt: GitHub är ett versions-hanteringssystem för projekt.
 ---
+
 {% intro %}
 
 ## Introduktion
@@ -19,9 +20,9 @@ Att arbeta med GitHub introducerar lite nya termer. Att committa, pusha och pull
 
 ### Tänk på
 
-- Att committa ofta och tidigt
-- Skriv tydliga meddelanden
-- Pusha vid lektionens slut
+-   Att committa ofta och tidigt
+-   Skriv tydliga meddelanden
+-   Pusha vid lektionens slut
 
 {% endintro %}
 
@@ -29,8 +30,8 @@ Att arbeta med GitHub introducerar lite nya termer. Att committa, pusha och pull
 
 ## Instruktioner
 
-- Ladda ned [GitHub Desktop](https://desktop.github.com/)
-- Kör installationsprogrammet
+-   Ladda ned [GitHub Desktop](https://desktop.github.com/)
+-   Kör installationsprogrammet
 
 När GitHub desktop är installerat så kommer du att få ett introduktionstutorial i applikationen.
 
@@ -38,7 +39,7 @@ När GitHub desktop är installerat så kommer du att få ett introduktionstutor
 
 Med Git arbetar du mot repositories. Ett repository (repo) skapas på [github.com](https://github.com). Ett repo är den plats där projektets filer sparas. Filerna sparas med en historik över dess ändringar.
 
-Ändringar i filer sparas i det som kallas commits. En commit är en ändring som sparas i en historik. 
+Ändringar i filer sparas i det som kallas commits. En commit är en ändring som sparas i en historik.
 
 En eller flera commits pushas sedan till ett repo.
 
@@ -47,7 +48,9 @@ En eller flera commits pushas sedan till ett repo.
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Installera GitHub desktop

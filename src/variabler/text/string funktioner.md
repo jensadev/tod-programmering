@@ -4,16 +4,14 @@ eleventyNavigation:
     key: string funktioner
     parent: text
     order: 5
-    excerpt: 
+    excerpt:
 ---
+
 {% intro %}
 
 ## Introduktion
 
-
 ### Tänk på
-
-
 
 {% endintro %}
 
@@ -21,23 +19,19 @@ eleventyNavigation:
 
 ## Instruktioner
 
-
 {% endinstruktioner %}
 
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
-
-
 
 ### ⭐⭐
 
 {% extra %}
-
-
-
 
 {% endextra %}
 

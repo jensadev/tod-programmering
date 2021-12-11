@@ -4,7 +4,7 @@ eleventyNavigation:
     key: flödesschema
     parent: algoritmer
     order: 3
-    excerpt: 
+    excerpt:
 ---
 
 {% intro %}
@@ -18,8 +18,8 @@ Ett flödesschema kan se ut på många sätt, men inom programmeringen används 
 
 ### Tänk på
 
-- Använd papper och penna först, sedan ett digital verktyg
-- Flödesschemat är en ritning över ditt program/algoritm
+-   Använd papper och penna först, sedan ett digital verktyg
+-   Flödesschemat är en ritning över ditt program/algoritm
 
 {% endintro %}
 
@@ -40,7 +40,9 @@ Symbolerna kopplas sedan ihop med pilar för att beskriva algoritmens flöde.
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Använda papper och penna och rita ett flödesschema för någon av algoritmerna från delen om [pseudokod](../pseudokod).
@@ -50,9 +52,6 @@ Använda papper och penna och rita ett flödesschema för någon av algoritmerna
 Använd [draw.io](https://www.draw.io/) för att rita ditt flödesschema.
 
 {% extra %}
-
-
-
 
 {% endextra %}
 

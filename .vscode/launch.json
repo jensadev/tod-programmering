@@ -9,14 +9,9 @@
             "request": "launch",
             "name": "Launch via NPM",
             "runtimeExecutable": "npm",
-            "runtimeArgs": [
-                "run",
-                "start"
-            ],
+            "runtimeArgs": ["run", "start"],
             "port": 9229,
-            "skipFiles": [
-                "<node_internals>/**"
-            ]
+            "skipFiles": ["<node_internals>/**"]
         }
     ]
 }

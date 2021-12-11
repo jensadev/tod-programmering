@@ -4,24 +4,27 @@ eleventyNavigation:
     key: uttryck
     parent: introduktion
     order: 4
-    excerpt: 
+    excerpt:
 ---
+
 {% intro %}
 
 ## Introduktion
 
 Inom programmering används uttryck på flera sätt. Det kan vara numeriska uttryck (precis som i matematiken)eller logiska uttryck (jämföra två värden till exempel).
 
-Uttryck skrivs ```operand operator operand``` och värdet beräknas när programmet körs, inte när koden skrivs.
+Uttryck skrivs `operand operator operand` och värdet beräknas när programmet körs, inte när koden skrivs.
 
 En operand kan vara:
-- ett direkt värde, ```12```
-- en variabel, ```tal```
-- variabler kan vara av olika typer, inte bara numeriska
+
+-   ett direkt värde, `12`
+-   en variabel, `tal`
+-   variabler kan vara av olika typer, inte bara numeriska
 
 ### Tänk på
-- Uttryckets form, ```operand operator operand```
-- Vad resultatet ska användas till
+
+-   Uttryckets form, `operand operator operand`
+-   Vad resultatet ska användas till
 
 {% endintro %}
 
@@ -33,7 +36,7 @@ Koda i [Python](/kom-igang/installation/python.html)-terminalen eller [Replit](/
 
 Skriv och repetera flera aritmetiska uttryck.
 Använd dig av de fyra räknesätten.
-Du kan läsa data från användaren med funktionen ```input()```. För att kunna räkna med värdet behöver det omvandlas till en numerisk datatyp.
+Du kan läsa data från användaren med funktionen `input()`. För att kunna räkna med värdet behöver det omvandlas till en numerisk datatyp.
 
 ```python
 tal1 = input("Skriv ett heltal: ")
@@ -59,11 +62,13 @@ print(tal2 == summa)
 {% uppgifter %}
 
 ## Uppgifter
+
 ### ⭐
+
 #### Uppgift 1
 
 Koda ett eller flera numeriska uttryck.
-Använd dig av ```input()```.
+Använd dig av `input()`.
 
 #### Uppgift 2
 
