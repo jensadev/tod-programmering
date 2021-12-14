@@ -2,7 +2,7 @@
 
 En starter för kurswebbar.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/cc1f0004-20d2-47c2-bfc3-48086c7be408/deploy-status)](https://app.netlify.com/sites/silly-bhaskara-09612e/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9bff6a0c-55f1-4b26-857e-428f76c8949c/deploy-status)](https://app.netlify.com/sites/optimistic-hypatia-068036/deploys)
 
 # Licens
 
