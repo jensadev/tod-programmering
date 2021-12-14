@@ -29,7 +29,7 @@ För att ladda in en modul används `import`.
 
 ## Instruktioner
 
-Med en [IDE](/kom-igang/installation/visual-studio-code.html) så går det att se vilka funktioner som finns i en modul.
+Med en [IDE](/kom-igang/installation/visual-studio-code/) så går det att se vilka funktioner som finns i en modul.
 
 Starta Visual Studio Code och testa.
 Importera modulen math och skriv sedan `math.`, du bör nu få förslag på tillgängliga metoder i modulen.
