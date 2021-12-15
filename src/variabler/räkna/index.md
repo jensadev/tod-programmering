@@ -7,7 +7,7 @@ eleventyNavigation:
     key: räkna
     parent: variabler
     order: 2
-    excerpt:
+    excerpt: I det här området tittar vi på programmeringen med ett fokus på att räkna.
 ---
 
 ## Delar i området {{ title }}

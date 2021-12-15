@@ -4,7 +4,7 @@ eleventyNavigation:
     key: integer
     parent: räkna
     order: 1
-    excerpt:
+    excerpt: För att spara värden med heltal så används datatypen int.
 ---
 
 {% intro %}

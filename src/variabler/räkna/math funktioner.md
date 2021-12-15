@@ -4,7 +4,7 @@ eleventyNavigation:
     key: math funktioner
     parent: räkna
     order: 5
-    excerpt:
+    excerpt: Python innehåller en Math modul med funktioner för att räkna.
 ---
 
 {% intro %}

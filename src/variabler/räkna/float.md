@@ -4,7 +4,7 @@ eleventyNavigation:
     key: float
     parent: räkna
     order: 2
-    excerpt:
+    excerpt: För att spara värden med decimaler så används datatypen float.
 ---
 
 {% intro %}

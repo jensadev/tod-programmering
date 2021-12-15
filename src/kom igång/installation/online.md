@@ -4,7 +4,7 @@ eleventyNavigation:
     key: online
     parent: installation
     order: 4
-    excerpt: Python kan även köras utan installation
+    excerpt: Python kan köras online utan att installera det på en dator.
 ---
 
 {% intro %}

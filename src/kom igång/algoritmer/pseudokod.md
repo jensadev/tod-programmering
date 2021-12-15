@@ -4,7 +4,7 @@ eleventyNavigation:
     key: pseudokod
     parent: algoritmer
     order: 2
-    excerpt:
+    excerpt: Pseudokod är en förenklad och förkortad version av kod för att hjälpa med problemlösning.
 ---
 
 {% intro %}

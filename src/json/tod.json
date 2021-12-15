@@ -1,456 +1,456 @@
 {
-  "subject": "programmering-1",
-  "themes": [
-    {
-      "theme": "felhantering",
-      "areas": []
-    },
-    {
-      "theme": "variabler",
-      "areas": [
+    "subject": "programmering-1",
+    "themes": [
         {
-          "area": "introduktion",
-          "parts": [
-            {
-              "part": "funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "datatyper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "operatorer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "uttryck",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "variabler-och-varden",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
+            "theme": "felhantering",
+            "areas": []
         },
         {
-          "area": "rakna",
-          "parts": [
-            {
-              "part": "float",
-              "assignments": [
+            "theme": "variabler",
+            "areas": [
                 {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
+                    "area": "introduktion",
+                    "parts": [
+                        {
+                            "part": "funktioner",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "datatyper",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-3",
+                                    "type": "extra",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "operatorer",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "uttryck",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "variabler-och-varden",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "integer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
+                    "area": "rakna",
+                    "parts": [
+                        {
+                            "part": "float",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "integer",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "math-funktioner",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "med-operatorer",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "med-uttryck",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "random",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "extra",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
+                    "area": "text",
+                    "parts": [
+                        {
+                            "part": "datum-och-tid",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "in-operatorn",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "indexering",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-3",
+                                    "type": "extra",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "skivor",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "string-funktioner",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "string",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "part": "math-funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "med-operatorer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "med-uttryck",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "random",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
+            ]
         },
         {
-          "area": "text",
-          "parts": [
-            {
-              "part": "datum-och-tid",
-              "assignments": [
+            "theme": "kom-igang",
+            "areas": [
                 {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "in-operatorn",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "indexering",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
+                    "area": "algoritmer",
+                    "parts": [
+                        {
+                            "part": "flodesschema",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "pseudokod",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "vad-ar-en-algoritm",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
+                    "area": "installation",
+                    "parts": [
+                        {
+                            "part": "github",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-3",
+                                    "type": "extra",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "online",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "extra",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "python",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        },
+                        {
+                            "part": "visual-studio-code",
+                            "assignments": [
+                                {
+                                    "assignment": "uppgift-1",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                },
+                                {
+                                    "assignment": "uppgift-2",
+                                    "type": "basic",
+                                    "completed": false,
+                                    "date": null
+                                }
+                            ]
+                        }
+                    ]
                 }
-              ]
-            },
-            {
-              "part": "skivor",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "string-funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "string",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
+            ]
+        },
+        {
+            "theme": "listor",
+            "areas": []
+        },
+        {
+            "theme": "upprepa",
+            "areas": []
+        },
+        {
+            "theme": "valja",
+            "areas": []
+        },
+        {
+            "theme": "slutuppgifter",
+            "areas": []
         }
-      ]
-    },
-    {
-      "theme": "kom-igang",
-      "areas": [
-        {
-          "area": "algoritmer",
-          "parts": [
-            {
-              "part": "flodesschema",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "pseudokod",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "vad-ar-en-algoritm",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "installation",
-          "parts": [
-            {
-              "part": "github",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "online",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "python",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "visual-studio-code",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "listor",
-      "areas": []
-    },
-    {
-      "theme": "upprepa",
-      "areas": []
-    },
-    {
-      "theme": "valja",
-      "areas": []
-    },
-    {
-      "theme": "slutuppgifter",
-      "areas": []
-    }
-  ]
+    ]
 }

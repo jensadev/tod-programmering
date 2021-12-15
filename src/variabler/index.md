@@ -7,7 +7,7 @@ eleventyNavigation:
     key: variabler
     parent: programmering
     order: 0
-    excerpt: Vad du behöver veta för att komma igång med kursen
+    excerpt: Variabler är det första steget in i programmering. Datorns sätt att spara information.
 ---
 
 ## Områden i temat {{ title }}

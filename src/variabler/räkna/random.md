@@ -4,7 +4,7 @@ eleventyNavigation:
     key: random
     parent: räkna
     order: 6
-    excerpt:
+    excerpt: Räkna med slumptal och lär dig att använda modulen Random.
 ---
 
 {% intro %}

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: string
     parent: text
     order: 1
-    excerpt:
+    excerpt: Text, nästan alla program innehåller det i en eller annan form.
 ---
 
 {% intro %}

@@ -4,7 +4,7 @@ eleventyNavigation:
     key: med uttryck
     parent: räkna
     order: 4
-    excerpt:
+    excerpt: Hur kan uttryck skapas med hjälp av operatorer och värden i Python.
 ---
 
 {% intro %}

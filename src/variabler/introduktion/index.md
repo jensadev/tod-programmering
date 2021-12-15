@@ -7,7 +7,7 @@ eleventyNavigation:
     key: introduktion
     parent: variabler
     order: 1
-    excerpt:
+    excerpt: I det här området presenteras en övergripande introduktion till programmering.
 ---
 
 ## Delar i området {{ title }}

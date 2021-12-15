@@ -4,7 +4,7 @@ eleventyNavigation:
     key: uttryck
     parent: introduktion
     order: 4
-    excerpt:
+    excerpt: Uttryck krävs för att kunna skriva algoritmer i programmering.
 ---
 
 {% intro %}

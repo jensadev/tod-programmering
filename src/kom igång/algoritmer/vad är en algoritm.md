@@ -4,7 +4,7 @@ eleventyNavigation:
     key: vad är en algoritm
     parent: algoritmer
     order: 1
-    excerpt:
+    excerpt: En algoritm är en kod som utför en specifik uppgift.
 ---
 
 {% intro %}

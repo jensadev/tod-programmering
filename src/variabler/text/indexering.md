@@ -4,7 +4,7 @@ eleventyNavigation:
     key: indexering
     parent: text
     order: 2
-    excerpt:
+    excerpt: För att komma åt enskilda tecken i en sträng används indexering.
 ---
 
 {% intro %}

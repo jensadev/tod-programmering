@@ -4,7 +4,7 @@ eleventyNavigation:
     key: visual studio code
     parent: installation
     order: 2
-    excerpt: IDE
+    excerpt: Visual Studio Code är ett gratis och open source-program för att koda och utveckla.
 ---
 
 {% intro %}

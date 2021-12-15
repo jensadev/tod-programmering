@@ -4,7 +4,7 @@ eleventyNavigation:
     key: variabler och värden
     parent: introduktion
     order: 1
-    excerpt:
+    excerpt: Variabler är en namngiven plats i minnet där data lagras.
 ---
 
 {% intro %}

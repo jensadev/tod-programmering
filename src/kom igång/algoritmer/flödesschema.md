@@ -4,7 +4,7 @@ eleventyNavigation:
     key: flödesschema
     parent: algoritmer
     order: 3
-    excerpt:
+    excerpt: Flödesscheman är ett verktyg för att hjälpa dig att förstå hur en algoritm fungerar.
 ---
 
 {% intro %}

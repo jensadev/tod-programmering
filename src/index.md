@@ -4,7 +4,7 @@ layout: 'layouts/home.njk'
 category: ämne
 eleventyNavigation:
     key: programmering
-    excerpt: Kursens startsida
+    excerpt: Kursens startsida.
 ---
 
 {% lead %}

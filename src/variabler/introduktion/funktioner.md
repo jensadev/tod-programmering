@@ -4,7 +4,7 @@ eleventyNavigation:
     key: funktioner
     parent: introduktion
     order: 5
-    excerpt:
+    excerpt: Funktioner är delar av kod som kan användas flera gånger för att utföra en specifik uppgift.
 ---
 
 {% intro %}

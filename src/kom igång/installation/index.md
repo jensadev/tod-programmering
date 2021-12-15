@@ -7,7 +7,7 @@ eleventyNavigation:
     key: installation
     parent: kom igång
     order: 1
-    excerpt: För att kunna programmera behöver vi kunna använda oss av ett antal olika verktyg
+    excerpt: För att arbeta med kod krävs verktyg.
 ---
 
 ## Delar i området {{ title }}

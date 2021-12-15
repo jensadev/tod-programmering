@@ -4,7 +4,7 @@ eleventyNavigation:
     key: med operatorer
     parent: räkna
     order: 3
-    excerpt:
+    excerpt: En genomgång av de numeriska operatorna i Python.
 ---
 
 {% intro %}

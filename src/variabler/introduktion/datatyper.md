@@ -4,7 +4,7 @@ eleventyNavigation:
     key: datatyper
     parent: introduktion
     order: 2
-    excerpt:
+    excerpt: Datatyper är den typ av data som lagras i variabler, som siffror och text.
 ---
 
 {% intro %}

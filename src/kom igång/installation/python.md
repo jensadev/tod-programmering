@@ -4,7 +4,7 @@ eleventyNavigation:
     key: python
     parent: installation
     order: 1
-    excerpt: För att kunna använda Python på din dator behöver det installeras
+    excerpt: För att kunna använda Python på en dator behöver det installeras.
 ---
 
 {% intro %}

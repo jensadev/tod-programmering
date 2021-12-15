@@ -4,7 +4,7 @@ eleventyNavigation:
     key: operatorer
     parent: introduktion
     order: 3
-    excerpt:
+    excerpt: För att kunna skriva uttryck i programmeringen behövs operatorer.
 ---
 
 {% intro %}
