@@ -5,6 +5,7 @@ templateEngineOverride: njk
 
 {{ content | safe }}
 
-{% set navPages = collections.slutuppgifter | fixTestsPages(navPages) %}
-
+{% if collections.slutuppgifter %}
+    {% set navPages = collections.slutuppgifter | fixTestsPages(navPages) %}
+{%endif %}
 {% include "components/categorylist.njk" %}
