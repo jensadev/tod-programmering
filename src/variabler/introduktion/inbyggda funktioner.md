@@ -1,7 +1,7 @@
 ---
-title: Funktioner
+title: Inbyggda funktioner
 eleventyNavigation:
-    key: funktioner
+    key: inbyggda funktioner
     parent: introduktion
     order: 5
     excerpt: Funktioner är delar av kod som kan användas flera gånger för att utföra en specifik uppgift.

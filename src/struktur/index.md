@@ -1,10 +1,10 @@
 ---
-title: Funktioner
+title: Struktur
 layout: 'layouts/theme-area.njk'
 category: tema
 permalink: '{{ page.filePathStem | splice | slugUrl }}/'
 eleventyNavigation:
-    key: funktioner
+    key: struktur
     parent: programmering
     order: 6
     excerpt:
