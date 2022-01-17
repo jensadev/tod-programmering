@@ -29,11 +29,8 @@ const sortArray = (array, property, direction = 1) => {
 // };
 
 const fixTestsPages = (pages) => {
-    if (!pages) {
-        return [];
-    }
-    let result = pages.map((page) => {
-        let temp = {};
+    const result = pages.map((page) => {
+        const temp = {};
         temp.title = page.data.title;
         temp.excerpt = page.data.eleventyNavigation.excerpt;
         temp.url = page.url;
