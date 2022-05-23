@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "text": "🐛 Fix för bildkoden.",
+            "date": "2022-05-23"
+        },
+        {
             "text": "📄 Nytt material i text.",
             "date": "2022-01-17"
         },
