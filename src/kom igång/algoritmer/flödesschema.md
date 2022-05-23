@@ -5,6 +5,7 @@ eleventyNavigation:
     parent: algoritmer
     order: 3
     excerpt: Flödesscheman är ett verktyg för att hjälpa dig att förstå hur en algoritm fungerar.
+templateEngineOverride : njk, md
 ---
 
 {% intro %}
