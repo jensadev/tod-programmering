@@ -23,6 +23,12 @@
         margin-bottom: ms(-2);
 
         border-bottom: 1px solid $gray-300;
+
+        span {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
     }
 
     &__test {
