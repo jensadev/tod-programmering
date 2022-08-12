@@ -39,6 +39,7 @@ message = "Vem ska gå till mormor? " + name
 print(message)
 ```
 
+En sträng kan sparas i en variabel som då får typen sträng.
 Innehållet i en sträng kan även vara [unicode karaktärer](http://unicode.org/charts/).
 En sträng kan också skrivas på flera rader.
 
@@ -70,13 +71,13 @@ För att göra radbrytningar eller tabbar kan du använda dig av en escape-sekve
 
 #### Uppgift 1
 
-Skriv ett program som frågar användaren efter namn.
+Skriv ett program som frågar användaren efter namn. Namnet ska sparas i en variabel.
 
-Skriv sedan ut en hälsning till användaren med namnet.
+Skriv sedan ut en hälsning till användaren där du använder variabeln.
 
 #### Uppgift 2
 
-Formatera din utskrift över flera rader. Prova att kapitalisera namnet.
+Formatera din utskrift över flera rader. Prova att kapitalisera namn-variabeln.
 
 `namn.capitalize()`
 
