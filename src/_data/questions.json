@@ -1,0 +1,19 @@
+[
+  {
+    "theme": "kom-igang",
+    "areas": [
+      {
+        "area": "installation",
+        "parts": [
+          {
+            "part": "python",
+            "questions": [
+              "Vad är Python och varför behöver du installera det?",
+              "Vad är en path? Varför behöver du lägga till Python i din path?"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "subject": "programmering",
+  "themes": [
+    {
+      "theme": "kom-igang",
+      "areas": [
+        {
+          "area": "installation",
+          "parts": [
+            {
+              "part": "python",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad är Python och varför behöver du installera det?",
+                  "id": 917959514,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är en path? Varför behöver du lägga till Python i din path?",
+                  "id": 917959513,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
