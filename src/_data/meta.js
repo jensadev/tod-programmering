@@ -44,8 +44,8 @@ module.exports = {
     // Sidans namn, måste överrensstämma med src/index.md title front matter
     siteName: 'Programmering',
     pwaName: 'programmering.jensa.dev',
-    primaryColor: curated[10].p, // curated[0-31] pick or color string '#ff4e50'
-    secondaryColor: curated[10].s, // pick or color string '#ff4e50'
+    primaryColor: curated[1].p, // curated[0-31] pick or color string '#ff3e50'
+    secondaryColor: curated[4].s, // pick or color string '#ff4e50'
     siteDescription: 'Kurswebb för gymnasiekursen Programmering 1.',
     author: {
         name: 'Jens Andreasson',

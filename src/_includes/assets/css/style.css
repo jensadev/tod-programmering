@@ -152,14 +152,14 @@ select {
   --font-mono: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
   /* Colors */
-  --color-primary: #ff0000;
-  --color-on-primary: #370000;
-  --color-secondary: #fcc;
-  --color-on-secondary: #8D4C4C;
-  --color-primary--light: #ff3333;
-  --color-primary--dark: #cc0000;
-  --color-on-primary--light: #6a0000;
-  --color-on-primary--dark: #040000;
+  --color-primary: #0f7870;
+  --color-on-primary: #DCF0EF;
+  --color-secondary: #e1d3b9;
+  --color-on-secondary: #665B47;
+  --color-primary--light: #15a59a;
+  --color-primary--dark: #094b46;
+  --color-on-primary--light: white;
+  --color-on-primary--dark: #b8e1df;
   --color-white: hsl(0, 0%, 98%);
   --color-gray-100: hsl(0, 0%, 96%);
   --color-gray-200: hsl(0, 0%, 93%);

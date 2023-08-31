@@ -1,6 +1,10 @@
 {
     "items": [
         {
+            "text": "🚀 Uppdatering av sidans teknik.",
+            "date": "2023-08-31"
+        },
+        {
             "text": "🐛 Fix för bildkoden.",
             "date": "2022-05-23"
         },
