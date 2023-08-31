@@ -105,8 +105,5 @@ dist
 
 public
 dist
-.vscode/settings.json
-src/scss/_color-tokens.scss
-src/scss/_color-token-contrast.md
-.vscode/launch.json
-node_modules
+.vscode/
+src/sass/_color-tokens.scss

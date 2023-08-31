@@ -2,10 +2,10 @@
 layout: layouts/base.njk
 templateEngineOverride: njk
 ---
+<main class="container flow" tabindex="-1" role="main" id="main-content">
+    {{ content | safe }}
 
-{{ content | safe }}
-
-{% if collections.slutuppgifter %}
     {% set navPages = collections.slutuppgifter | fixTestsPages(navPages) %}
-{%endif %}
-{% include "components/categorylist.njk" %}
+
+    {% include "partials/categorylist.njk" %}
+</main>
