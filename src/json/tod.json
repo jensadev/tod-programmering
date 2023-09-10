@@ -27,6 +27,19 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "visual-studio-code",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad är en IDE?",
+                  "id": 951494247,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
         }
