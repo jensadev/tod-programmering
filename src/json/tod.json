@@ -2,8 +2,85 @@
   "subject": "programmering",
   "themes": [
     {
+      "theme": "programmering",
+      "areas": [
+        {
+          "area": "slutuppgifter",
+          "parts": []
+        }
+      ]
+    },
+    {
       "theme": "kom-igang",
       "areas": [
+        {
+          "area": "algoritmer",
+          "parts": [
+            {
+              "part": "flodesschema",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad är ett flödesschema och varför är det användbart?",
+                  "id": 2706376324,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på flödescheman som du stött på i vardagen.",
+                  "id": 2706376327,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "pseudokod",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Beskriv vad pseudokod är och varför det är användbart.",
+                  "id": 56612314,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge exempel på hur uttryck i pseudokod kan användas för att beskriva en algoritm.",
+                  "id": 56612313,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "vad-ar-en-algoritm",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Beskriv vad en algoritm är.",
+                  "id": 4210263395,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Ge minst två exempel på olika algoritmer.",
+                  "id": 4210263392,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            }
+          ]
+        },
         {
           "area": "installation",
           "parts": [
@@ -92,83 +169,6 @@
               ]
             }
           ]
-        },
-        {
-          "area": "algoritmer",
-          "parts": [
-            {
-              "part": "flodesschema",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad är ett flödesschema och varför är det användbart?",
-                  "id": 2706376324,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på flödescheman som du stött på i vardagen.",
-                  "id": 2706376327,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "pseudokod",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Beskriv vad pseudokod är och varför det är användbart.",
-                  "id": 56612314,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge exempel på hur uttryck i pseudokod kan användas för att beskriva en algoritm.",
-                  "id": 56612313,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "vad-ar-en-algoritm",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Beskriv vad en algoritm är.",
-                  "id": 4210263395,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Ge minst två exempel på olika algoritmer.",
-                  "id": 4210263392,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "programmering",
-      "areas": [
-        {
-          "area": "slutuppgifter",
-          "parts": []
         }
       ]
     }
