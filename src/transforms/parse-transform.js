@@ -6,38 +6,53 @@ const { JSDOM } = jsdom;
 const fs = require('fs');
 const strip = require('../utils/strip.js');
 
-function getAssignments(document) {
-    const basicAssignments = [
-        ...document.querySelectorAll('.part__assignments > h4'),
+function djb2_xor(str) {
+    let len = str.length;
+    let h = 5381;
+
+    for (let i = 0; i < len; i++) {
+        h = (h * 33) ^ str.charCodeAt(i);
+    }
+    return h >>> 0;
+}
+
+function getQuestions(document, theme, area, part) {
+    const basicQuestions = [
+        ...document.querySelectorAll('.part__questions-base h4'),
     ];
-    const assignments = [];
-    if (basicAssignments.length > 0) {
-        basicAssignments.forEach((assignment) => {
-            assignments.push({
-                assignment: strip(assignment.textContent),
-                type: 'basic',
+    const questions = [];
+    if (basicQuestions.length > 0) {
+        basicQuestions.forEach((question) => {
+            const title = strip(question.textContent);
+            questions.push({
+                question: title,
+                text: question.nextSibling.nextSibling.textContent,
+                id: djb2_xor(theme + area + part + title),
+                type: 'base',
                 completed: false,
                 date: null,
             });
         });
     }
 
-    const extraAssignments = [
-        ...document.querySelectorAll('.part__assignments-extra > h4'),
+    const advancedQuestions = [
+        ...document.querySelectorAll('.part__questions-advanced h4'),
     ];
 
-    if (extraAssignments.length > 0) {
-        extraAssignments.forEach((assignment) => {
-            assignments.push({
-                assignment: strip(assignment.textContent),
-                type: 'extra',
+    if (advancedQuestions.length > 0) {
+        advancedQuestions.forEach((question) => {
+            const title = strip(question.textContent);
+            questions.push({
+                question: title,
+                id: djb2_xor(theme + area + part + title),
+                type: 'advanced',
                 completed: false,
                 date: null,
             });
         });
     }
 
-    return assignments;
+    return questions;
 }
 
 module.exports = function (value, outputPath) {
@@ -78,8 +93,12 @@ module.exports = function (value, outputPath) {
                 json = JSON.parse('{}');
             }
 
-            if (structure[0] !== undefined) {
-                name = strip(structure[0].textContent);
+            /* Get element from DOM to set subject */
+            const el = document.querySelector('.navbar__header > a');
+
+            if (el !== undefined) {
+                name = strip(el.textContent);
+
                 if (json.subject === undefined) {
                     json.subject = name;
                 }
@@ -88,8 +107,9 @@ module.exports = function (value, outputPath) {
                 }
             }
 
-            if (structure[1] !== undefined) {
-                theme = strip(structure[1].textContent);
+            /* Use the breadcrumb structure to set theme, area and part */
+            if (structure[0] !== undefined) {
+                theme = strip(structure[0].textContent);
 
                 const themeObj = json.themes.find((o) => o.theme === theme);
 
@@ -101,8 +121,8 @@ module.exports = function (value, outputPath) {
                 }
             }
 
-            if (structure[2] !== undefined) {
-                area = strip(structure[2].textContent);
+            if (structure[1] !== undefined) {
+                area = strip(structure[1].textContent);
                 const themeObj = json.themes.find((o) => o.theme === theme);
 
                 if (themeObj !== undefined) {
@@ -117,8 +137,8 @@ module.exports = function (value, outputPath) {
                 }
             }
 
-            if (structure[3] !== undefined) {
-                part = strip(structure[3].textContent);
+            if (structure[2] !== undefined) {
+                part = strip(structure[2].textContent);
                 const themeObj = json.themes.find((o) => o.theme === theme);
                 if (themeObj !== undefined) {
                     const areaObj = themeObj.areas.find((o) => o.area === area);
@@ -129,10 +149,20 @@ module.exports = function (value, outputPath) {
                         if (partObj === undefined) {
                             const temp = {};
                             temp.part = part;
-                            temp.assignments = getAssignments(document);
+                            temp.questions = getQuestions(
+                                document,
+                                theme,
+                                area,
+                                part
+                            );
                             areaObj.parts.push(temp);
                         } else {
-                            partObj.assignments = getAssignments(document);
+                            partObj.questions = getQuestions(
+                                document,
+                                theme,
+                                area,
+                                part
+                            );
                         }
                     }
                 }

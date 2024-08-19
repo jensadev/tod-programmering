@@ -1,27 +1,22 @@
 ---
 layout: layouts/base.njk
 ---
-<link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css"
-    integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-tomorrow.min.css"
+    integrity="sha512-kSwGoyIkfz4+hMo5jkJngSByil9jxJPKbweYec/UgS+S1EgE45qm4Gea7Ks2oxQ7qiYyyZRn66A9df2lMtjIsw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 {% set test = eleventyNavigation.test %}
-<div class="part">
-    <header class="part__header">
-        <h1 class="part__header-title" id="title">
-            {{ title }}<a class="anchor" href="#title">#</a>
-        </h1>
-        <span class="text-muted">{{ content | emojiReadTime }}</span>
-    </header>
-{% if test %}
-    <section class="part__test flow">
-        {{ content | safe }}
-    </section>
-</div>
-{% else %}
-        {{ content | safe }}
-</div>
-{% include "components/nav-bottom.njk" %}
-{% endif %}
+<main class="container flow" tabindex="-1" role="main" id="main-content">
+    <article class="part region flow">
+        <header class="part__header">
+            <h1 class="part__header-title" id="title">
+                {{ title }} <a class="header-anchor" href="#title"><span class="anchor" aria-hidden="true">#</span></a>
+            </h1>
+            <span class="text-muted">{{ content | emojiReadTime }}</span>
+        </header>
+        <div class="part__content">
+            {{ content | safe }}
+        </div>
+    </article>
+    {% include "partials/prev-next.njk" %}
+    {% include "templates/notes.njk" %}
+</main>

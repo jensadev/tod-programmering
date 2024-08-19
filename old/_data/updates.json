@@ -1,0 +1,60 @@
+{
+    "items": [
+        {
+            "text": "🐛 Fix för bildkoden.",
+            "date": "2022-05-23"
+        },
+        {
+            "text": "📄 Nytt material i text.",
+            "date": "2022-01-17"
+        },
+        {
+            "text": "💄 Nytt gränssnitt, förenklad vy. Ikon i navbar för att växla.",
+            "date": "2022-01-17"
+        },
+        {
+            "text": "🚸 Bättre länkar.",
+            "date": "2021-12-14"
+        },
+        {
+            "text": "✨ Fortsätt arbeta från där du var senast.",
+            "date": "2021-12-11"
+        },
+        {
+            "text": "✨ Slutuppgifter. Tyvärr så försvinner dina sparade uppgifter med denna uppdatering.",
+            "date": "2021-11-12"
+        },
+        {
+            "text": "✨ Påbörjat området text.",
+            "date": "2021-10-18"
+        },
+        {
+            "text": "📄 Förtydligat uppgifter och instruktioner i räkna.",
+            "date": "2021-10-18"
+        },
+        {
+            "text": "📄 Förbättrat innehåll för områdena introduktion och räkna",
+            "date": "2021-10-12"
+        },
+        {
+            "text": "🐛 Fixat sidor med samma namn, intro -> uttryck går inte till räkna/uttryck osv.",
+            "date": "2021-10-12"
+        },
+        {
+            "text": "📄 Innehåll för området Räkna",
+            "date": "2021-10-04"
+        },
+        {
+            "text": "🐛 Sidor med namnet funktioner fungerar nu som tänkt",
+            "date": "2021-10-04"
+        },
+        {
+            "text": "Område: algoritmer med tillhörande delar",
+            "date": "2021-09-22"
+        },
+        {
+            "text": "Uppdaterat kod för att visa uppdateringar",
+            "date": "2021-09-13"
+        }
+    ]
+}

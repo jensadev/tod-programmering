@@ -2,117 +2,36 @@
   "subject": "programmering",
   "themes": [
     {
-      "theme": "felhantering",
-      "areas": []
+      "theme": "programmering",
+      "areas": [
+        {
+          "area": "slutuppgifter",
+          "parts": []
+        }
+      ]
     },
     {
       "theme": "kom-igang",
       "areas": [
         {
-          "area": "algoritmer",
-          "parts": [
-            {
-              "part": "flodesschema",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "pseudokod",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "vad-ar-en-algoritm",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
           "area": "installation",
           "parts": [
             {
-              "part": "github",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "online",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "python",
-              "assignments": [
+              "questions": [
                 {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
+                  "question": "uppgift-1",
+                  "text": "Varför är det viktigt att lägga till Python i din path?",
+                  "id": 917959514,
+                  "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
+                  "question": "uppgift-2",
+                  "text": "Hur kan du testa om Python är installerat i din path?",
+                  "id": 917959513,
+                  "type": "base",
                   "completed": false,
                   "date": null
                 }
@@ -120,16 +39,62 @@
             },
             {
               "part": "visual-studio-code",
-              "assignments": [
+              "questions": [
                 {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
+                  "question": "uppgift-1",
+                  "text": "Vad är en IDE?",
+                  "id": 951494247,
+                  "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
+                  "question": "uppgift-2",
+                  "text": "Varför är det viktigt att lära sig programmet VSCode?",
+                  "id": 951494244,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "git-och-github",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad är Git?",
+                  "id": 103160149,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är GitHub?",
+                  "id": 103160150,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "online-ide",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad skiljer replit från att installera Python på din dator?",
+                  "id": 3680432356,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är en fördel med att använda replit?",
+                  "id": 3680432359,
+                  "type": "base",
                   "completed": false,
                   "date": null
                 }
@@ -138,353 +103,6 @@
           ]
         }
       ]
-    },
-    {
-      "theme": "listor",
-      "areas": []
-    },
-    {
-      "theme": "slutuppgifter",
-      "areas": []
-    },
-    {
-      "theme": "struktur",
-      "areas": []
-    },
-    {
-      "theme": "upprepa",
-      "areas": []
-    },
-    {
-      "theme": "variabler",
-      "areas": [
-        {
-          "area": "introduktion",
-          "parts": [
-            {
-              "part": "datatyper",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "inbyggda-funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "operatorer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "uttryck",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "variabler-och-varden",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "rakna",
-          "parts": [
-            {
-              "part": "float",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "integer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "math-funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "med-uttryck",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "med-operatorer",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "random",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "area": "text",
-          "parts": [
-            {
-              "part": "slicing",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "string",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "in-operatorn",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "indexering",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "extra",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "datum-och-tid",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "string-funktioner",
-              "assignments": [
-                {
-                  "assignment": "uppgift-1",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-2",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "assignment": "uppgift-3",
-                  "type": "basic",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "theme": "valja",
-      "areas": []
     }
   ]
 }
