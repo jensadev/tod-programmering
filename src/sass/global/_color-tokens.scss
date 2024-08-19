@@ -1,0 +1,25 @@
+/* 🛑 STOP!
+  Do not change this file directly.
+  Modify colors in src/_data/color-tokens.js
+ */
+
+$color-primary: #a34993 !default;
+$color-on-primary: #F9E7F5 !default;
+$color-secondary: #ba5190 !default;
+$color-on-secondary: #0F020A !default;
+
+$base-color-tokens: ("primary", "secondary");
+
+$color-tokens: (
+  "color-primary": $color-primary,
+  "color-on-primary": $color-on-primary,
+  "color-secondary": $color-secondary,
+  "color-on-secondary": $color-on-secondary
+) !default;
+
+@mixin color-tokens() {
+  --color-primary: #{$color-primary};
+  --color-on-primary: #{$color-on-primary};
+  --color-secondary: #{$color-secondary};
+  --color-on-secondary: #{$color-on-secondary};
+}

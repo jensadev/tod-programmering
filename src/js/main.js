@@ -1,14 +1,23 @@
-import { accordion } from './accordion';
+import data from '../json/tod.json';
+import { consent as consentPopup } from './consent';
+import { feedback } from './feedback';
+import { installSW } from './install';
+import { menu } from './menu';
 import { siteSearch } from './search';
 import { setup } from './setup';
-import { view } from './view';
 
 window.addEventListener('load', () => {
     siteSearch();
-    view();
-    const state = localStorage.getItem('view');
-    if (state !== 'grid') {
-        accordion();
+    const consent = localStorage.getItem('consent');
+    if (!consent && consent !== 'false') {
+        consentPopup(
+            `Den här webbplatsen använder Google Analytics för att spara information om ditt besök. 
+            Dina uppgifter och anteckningar sparas lokalt i din webbläsare.`,
+            `Ok`
+        );
     }
-    setup();
+    feedback();
+    installSW();
+    menu();
+    setup(data, consent);
 });

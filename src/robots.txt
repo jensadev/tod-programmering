@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://programmering.jensa.xyz/sitemap.xml
-Sitemap: http://programmering.jensa.xyz/sitemap.xml
