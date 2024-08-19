@@ -3,6 +3,32 @@
     "theme": "kom-igang",
     "areas": [
       {
+        "area": "algoritmer",
+        "parts": [
+          {
+            "part": "flodesschema",
+            "questions": [
+              "Vad är ett flödesschema och varför är det användbart?",
+              "Ge exempel på flödescheman som du stött på i vardagen."
+            ]
+          },
+          {
+            "part": "pseudokod",
+            "questions": [
+              "Beskriv vad pseudokod är och varför det är användbart.",
+              "Ge exempel på hur uttryck i pseudokod kan användas för att beskriva en algoritm."
+            ]
+          },
+          {
+            "part": "vad-ar-en-algoritm",
+            "questions": [
+              "Beskriv vad en algoritm är.",
+              "Ge minst två exempel på olika algoritmer."
+            ]
+          }
+        ]
+      },
+      {
         "area": "installation",
         "parts": [
           {
@@ -31,32 +57,6 @@
             "questions": [
               "Vad är en IDE?",
               "Varför är det viktigt att lära sig programmet VSCode?"
-            ]
-          }
-        ]
-      },
-      {
-        "area": "algoritmer",
-        "parts": [
-          {
-            "part": "flodesschema",
-            "questions": [
-              "Vad är ett flödesschema och varför är det användbart?",
-              "Ge exempel på flödescheman som du stött på i vardagen."
-            ]
-          },
-          {
-            "part": "pseudokod",
-            "questions": [
-              "Beskriv vad pseudokod är och varför det är användbart.",
-              "Ge exempel på hur uttryck i pseudokod kan användas för att beskriva en algoritm."
-            ]
-          },
-          {
-            "part": "vad-ar-en-algoritm",
-            "questions": [
-              "Beskriv vad en algoritm är.",
-              "Ge minst två exempel på olika algoritmer."
             ]
           }
         ]
