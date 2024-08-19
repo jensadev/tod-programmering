@@ -6,6 +6,20 @@
         "area": "installation",
         "parts": [
           {
+            "part": "git-och-github",
+            "questions": [
+              "Vad är Git?",
+              "Vad är GitHub?"
+            ]
+          },
+          {
+            "part": "online-ide",
+            "questions": [
+              "Vad skiljer replit från att installera Python på din dator?",
+              "Vad är en fördel med att använda replit?"
+            ]
+          },
+          {
             "part": "python",
             "questions": [
               "Varför är det viktigt att lägga till Python i din path?",
@@ -18,19 +32,31 @@
               "Vad är en IDE?",
               "Varför är det viktigt att lära sig programmet VSCode?"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "area": "algoritmer",
+        "parts": [
           {
-            "part": "git-och-github",
+            "part": "flodesschema",
             "questions": [
-              "Vad är Git?",
-              "Vad är GitHub?"
+              "Vad är ett flödesschema och varför är det användbart?",
+              "Ge exempel på flödescheman som du stött på i vardagen."
             ]
           },
           {
-            "part": "online-ide",
+            "part": "pseudokod",
             "questions": [
-              "Vad skiljer replit från att installera Python på din dator?",
-              "Vad är en fördel med att använda replit?"
+              "Beskriv vad pseudokod är och varför det är användbart.",
+              "Ge exempel på hur uttryck i pseudokod kan användas för att beskriva en algoritm."
+            ]
+          },
+          {
+            "part": "vad-ar-en-algoritm",
+            "questions": [
+              "Beskriv vad en algoritm är.",
+              "Ge minst två exempel på olika algoritmer."
             ]
           }
         ]

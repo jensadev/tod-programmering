@@ -2,62 +2,11 @@
   "subject": "programmering",
   "themes": [
     {
-      "theme": "programmering",
-      "areas": [
-        {
-          "area": "slutuppgifter",
-          "parts": []
-        }
-      ]
-    },
-    {
       "theme": "kom-igang",
       "areas": [
         {
           "area": "installation",
           "parts": [
-            {
-              "part": "python",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Varför är det viktigt att lägga till Python i din path?",
-                  "id": 917959514,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Hur kan du testa om Python är installerat i din path?",
-                  "id": 917959513,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
-              "part": "visual-studio-code",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad är en IDE?",
-                  "id": 951494247,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Varför är det viktigt att lära sig programmet VSCode?",
-                  "id": 951494244,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
             {
               "part": "git-och-github",
               "questions": [
@@ -99,6 +48,48 @@
                   "date": null
                 }
               ]
+            },
+            {
+              "part": "python",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Varför är det viktigt att lägga till Python i din path?",
+                  "id": 917959514,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Hur kan du testa om Python är installerat i din path?",
+                  "id": 917959513,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "visual-studio-code",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad är en IDE?",
+                  "id": 951494247,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Varför är det viktigt att lära sig programmet VSCode?",
+                  "id": 951494244,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
             }
           ]
         },
@@ -106,20 +97,20 @@
           "area": "algoritmer",
           "parts": [
             {
-              "part": "vad-ar-en-algoritm",
+              "part": "flodesschema",
               "questions": [
                 {
                   "question": "uppgift-1",
-                  "text": "Beskriv vad en algoritm är.",
-                  "id": 4210263395,
+                  "text": "Vad är ett flödesschema och varför är det användbart?",
+                  "id": 2706376324,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-2",
-                  "text": "Ge minst två exempel på olika algoritmer.",
-                  "id": 4210263392,
+                  "text": "Ge exempel på flödescheman som du stött på i vardagen.",
+                  "id": 2706376327,
                   "type": "base",
                   "completed": false,
                   "date": null
@@ -148,20 +139,20 @@
               ]
             },
             {
-              "part": "flodesschema",
+              "part": "vad-ar-en-algoritm",
               "questions": [
                 {
                   "question": "uppgift-1",
-                  "text": "Vad är ett flödesschema och varför är det användbart?",
-                  "id": 2706376324,
+                  "text": "Beskriv vad en algoritm är.",
+                  "id": 4210263395,
                   "type": "base",
                   "completed": false,
                   "date": null
                 },
                 {
                   "question": "uppgift-2",
-                  "text": "Ge exempel på flödescheman som du stött på i vardagen.",
-                  "id": 2706376327,
+                  "text": "Ge minst två exempel på olika algoritmer.",
+                  "id": 4210263392,
                   "type": "base",
                   "completed": false,
                   "date": null
@@ -169,6 +160,15 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "theme": "programmering",
+      "areas": [
+        {
+          "area": "slutuppgifter",
+          "parts": []
         }
       ]
     }
