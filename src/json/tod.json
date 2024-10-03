@@ -2,10 +2,18 @@
   "subject": "programmering",
   "themes": [
     {
-      "theme": "programmering",
+      "theme": "grunderna",
       "areas": [
         {
-          "area": "slutuppgifter",
+          "area": "att-upprepa",
+          "parts": []
+        },
+        {
+          "area": "att-valja",
+          "parts": []
+        },
+        {
+          "area": "att-spara",
           "parts": []
         }
       ]
@@ -106,27 +114,6 @@
               ]
             },
             {
-              "part": "online-ide",
-              "questions": [
-                {
-                  "question": "uppgift-1",
-                  "text": "Vad skiljer replit från att installera Python på din dator?",
-                  "id": 3680432356,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                },
-                {
-                  "question": "uppgift-2",
-                  "text": "Vad är en fördel med att använda replit?",
-                  "id": 3680432359,
-                  "type": "base",
-                  "completed": false,
-                  "date": null
-                }
-              ]
-            },
-            {
               "part": "python",
               "questions": [
                 {
@@ -141,6 +128,27 @@
                   "question": "uppgift-2",
                   "text": "Hur kan du testa om Python är installerat i din path?",
                   "id": 917959513,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                }
+              ]
+            },
+            {
+              "part": "online-ide",
+              "questions": [
+                {
+                  "question": "uppgift-1",
+                  "text": "Vad skiljer replit från att installera Python på din dator?",
+                  "id": 3680432356,
+                  "type": "base",
+                  "completed": false,
+                  "date": null
+                },
+                {
+                  "question": "uppgift-2",
+                  "text": "Vad är en fördel med att använda replit?",
+                  "id": 3680432359,
                   "type": "base",
                   "completed": false,
                   "date": null
@@ -169,6 +177,15 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "theme": "programmering",
+      "areas": [
+        {
+          "area": "slutuppgifter",
+          "parts": []
         }
       ]
     }
